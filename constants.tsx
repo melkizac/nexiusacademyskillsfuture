@@ -207,6 +207,19 @@ export const WEBSITE_IMAGES = {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    id: 29,
+    slug: 'ai-agent-acceptance-testing-business-professionals',
+    title: 'AI Agent Acceptance Testing: What Business Professionals Must Learn Before They Automate',
+    date: '12 Oct 2026',
+    views: 0,
+    image: '/images/blog/ai-agent-acceptance-testing-business-professionals.png',
+    imageAlt: 'A business professional learning to test AI agent work against clear acceptance criteria',
+    excerpt: 'AI agents can produce convincing but wrong work. Learn to define PASS conditions, rejection rules, independent evidence, and human review before automation scales.',
+    category: 'Beginner Guides',
+    bestFor: 'Business professionals, SME owners, operations managers, analysts, L&D teams',
+    featured: true,
+  },
+  {
     id: 28,
     slug: 'ai-supervision-skills-business-professionals',
     title: 'AI Supervision Skills: What Business Professionals Must Learn to Validate and Override AI',

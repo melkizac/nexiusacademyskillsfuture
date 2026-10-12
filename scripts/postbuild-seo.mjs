@@ -1430,6 +1430,22 @@ const routes = [
     articleDate: '2026-10-05',
   },
   {
+    path: '/blog/ai-agent-acceptance-testing-business-professionals',
+    priority: '0.8',
+    changefreq: 'monthly',
+    includeInSitemap: true,
+    title: 'AI Agent Acceptance Testing for Business Professionals | Nexius Academy',
+    description:
+      'Learn how domain experts define PASS and FAIL for AI agents using real cases, acceptance conditions, rejection rules, independent evidence, and human review.',
+    ogType: 'article',
+    ogImage: 'https://academy.nexiuslabs.com/images/blog/ai-agent-acceptance-testing-business-professionals.png',
+    ogImageAlt: 'A business professional learning to test AI agent work against clear acceptance criteria',
+    ogImageWidth: 1672,
+    ogImageHeight: 941,
+    schemas: [],
+    articleDate: '2026-10-12',
+  },
+  {
     path: '/admin',
     priority: '0.1',
     changefreq: 'monthly',
