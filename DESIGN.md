@@ -123,6 +123,12 @@ This extracted system applies across the Academy site: the approved homepage and
 
 The palette is neutral and deliberate; the frontmatter owns exact values.
 
+### Academy media and represented organisations — 13 October 2026
+
+Nexius-owned UI surfaces and existing master marks retain the neutral identity. Display photography and organisation marks in their authentic colours at normal opacity; do not apply automatic greyscale, dimming or hover-only colour reveal. Colours within these assets are not new corporate palette tokens. Preserve authentic monochrome marks, aspect ratios, clear space and the organisations-represented disclaimer.
+
+The existing workshop poster is retained in its original colours for this correction. Its blue-glow campaign style remains a separate art-direction decision; the colour correction does not redefine the full guide's photography rules. See [Academy media and co-branding addendum](docs/ACADEMY-MEDIA-COLOUR-ADDENDUM.md).
+
 ### Primary
 
 Ink anchors headings, primary actions and the dark footer. Hover Ink supplies the primary action hover state.

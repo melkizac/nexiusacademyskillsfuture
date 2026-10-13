@@ -150,7 +150,6 @@
 .academy-refresh footer :is(input,button) {border-radius: 6px;}
 .academy-refresh footer input {color: #111;}
 .academy-refresh section[class*="bg-white"] > div > div > div[class*="blur"], .academy-refresh [class*="blur-3xl"] {display: none;}
-.academy-refresh section[aria-labelledby="home-workshop-title"] img {filter: grayscale(1);}
 .academy-refresh section[aria-labelledby="home-workshop-title"] .uppercase {display: none;}
 .academy-refresh #overview .text-blue-100 {color: #525252;}
 /* Keep semantic headings and diagnostic category labels visible. */
