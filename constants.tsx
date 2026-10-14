@@ -66,15 +66,6 @@ export const SCHEDULES: ScheduleItem[] = [
 
 export const ADVANCED_COURSE_SCHEDULES = [
   {
-    month: 'Oct 2026',
-    dates: '07 Oct 2026 (Wed), 08 Oct 2026 (Thu) & 15 Oct 2026 (Thu)',
-    time: '9:00am - 6:00pm',
-    venue: '60 Cecil St, ISCA House, Level 4, Room 4-2, S(049709)',
-    registrationCloses: '23 Sep 2026',
-    registrationClosed: true,
-    cohortCode: '2026-10-07',
-  },
-  {
     month: 'Nov 2026',
     dates: '11 Nov 2026 (Wed), 12 Nov 2026 (Thu) & 18 Nov 2026 (Wed)',
     time: '9:00am - 6:00pm',
