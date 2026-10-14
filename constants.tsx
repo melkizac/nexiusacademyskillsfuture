@@ -55,7 +55,7 @@ export const SCHEDULES: ScheduleItem[] = [
     dates: '06 Nov 2026 & 13 Nov 2026',
     time: '9:00am - 5:00pm',
     format: 'In-Person',
-    venue: 'Bugis Area',
+    venue: '116 Middle Road, ICB Enterprise House, S(188972)',
     month: 'Nov 2026',
     registrationCloses: '30 Oct 2026',
     interestOnly: false,

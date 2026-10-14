@@ -616,14 +616,16 @@ const routes = [
             '@type': 'CourseInstance',
             courseMode: 'In-person',
             courseWorkload: 'PT16H',
-            description: 'Confirmed class on 06 & 13 November 2026, 9am to 5pm. Registration closes 30 October 2026. Bugis Area.',
+            description: 'Confirmed class on 06 & 13 November 2026, 9am to 5pm. Registration closes 30 October 2026. 116 Middle Road, ICB Enterprise House, S(188972).',
             startDate: '2026-11-06T09:00:00+08:00',
             endDate: '2026-11-13T17:00:00+08:00',
             location: {
               '@type': 'Place',
-              name: 'Bugis Area',
+              name: 'ICB Enterprise House',
               address: {
                 '@type': 'PostalAddress',
+                streetAddress: '116 Middle Road',
+                postalCode: '188972',
                 addressLocality: 'Singapore',
                 addressCountry: 'SG',
               },
