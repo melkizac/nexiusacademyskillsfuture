@@ -1,13 +1,14 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-test('Started September and withdrawn December cohorts are removed while October and November remain', () => {
+test('Started September and October and withdrawn December cohorts are removed while November remains', () => {
  const constants=readFileSync(new URL('../../constants.tsx',import.meta.url),'utf8');
  assert.doesNotMatch(constants,/18 Sep 2026|2026-09-18|15 Dec 2026|18 Dec 2026|2026-12-15/);
- for (const code of ['2026-10-09', '2026-11-06']) assert.ok(constants.includes(code));
+ assert.doesNotMatch(constants, /2026-10-09|09 Oct 2026|16 Oct 2026/);
+ assert.ok(constants.includes('2026-11-06'));
  const seo=readFileSync(new URL('../../scripts/postbuild-seo.mjs',import.meta.url),'utf8');
  assert.doesNotMatch(seo,/2026-09-18|2026-09-25|2026-12-15|2026-12-18/);
- assert.match(seo,/2026-10-09T09:00:00/);
+ assert.doesNotMatch(seo,/2026-10-09T09:00:00|2026-10-16T18:00:00/);
  const modal=readFileSync(new URL('../../components/leads/LeadCaptureModal.tsx',import.meta.url),'utf8');
  assert.doesNotMatch(modal,/code: '2026-09-18'/);
  const options=modal.slice(modal.indexOf("'agentic-ai': ["));
@@ -31,7 +32,7 @@ test('November Foundation is confirmed for 6 and 13 November across booking and 
  const seo=readFileSync(new URL('../../scripts/postbuild-seo.mjs',import.meta.url),'utf8');
  assert.match(seo, /2026-11-06T09:00:00/);
  assert.match(seo, /2026-11-13T17:00:00/);
- const novInstance=seo.slice(seo.indexOf("startDate: '2026-11-06T09:00:00+08:00'"), seo.indexOf("startDate: '2026-10-09T09:00:00+08:00'"));
+ const novInstance=seo.slice(seo.indexOf("startDate: '2026-11-06T09:00:00+08:00'"), seo.indexOf("path: '/private-class'"));
  assert.match(novInstance, /name: 'ICB Enterprise House'/);
  assert.match(novInstance, /streetAddress: '116 Middle Road'/);
  assert.match(novInstance, /postalCode: '188972'/);
