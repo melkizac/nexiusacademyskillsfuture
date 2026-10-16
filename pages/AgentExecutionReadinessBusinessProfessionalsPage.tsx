@@ -15,8 +15,8 @@ const AgentExecutionReadinessBusinessProfessionalsPage: React.FC = () => {
         description="AI agents are moving from chat into business execution. Learn the workflow mapping, context design, approval gates, testing, and governance skills professionals need before agents act across tools."
         canonical={`/blog/${ARTICLE_SLUG}`}
         ogType="article"
-        ogImage="https://academy.nexiuslabs.com/images/blog/approved/article-ai-agents-execution-control-plane-smes-04243e593164.webp"
-        ogImageAlt="From suggestions to authorised action, represented in a cinematic graphite and silver composition"
+        ogImage="https://academy.nexiuslabs.com/images/blog/agent-execution-readiness-business-professionals.png"
+        ogImageAlt="Agent Execution Readiness: What Business Professionals Must Learn Before AI Acts Across Tools"
         ogImageWidth={1672}
         ogImageHeight={941}
       />
@@ -35,8 +35,8 @@ const AgentExecutionReadinessBusinessProfessionalsPage: React.FC = () => {
           <ArticleMeta articleSlug={ARTICLE_SLUG} readTime="8 min read" />
 
           <img
-            src="/images/blog/approved/article-ai-agents-execution-control-plane-smes-04243e593164.webp"
-            alt="From suggestions to authorised action, represented in a cinematic graphite and silver composition"
+            src="/images/blog/agent-execution-readiness-business-professionals.png"
+            alt="Agent Execution Readiness: What Business Professionals Must Learn Before AI Acts Across Tools"
             className="w-full rounded-xl shadow-md border border-gray-100 mb-8"
             loading="eager"
             width={1672}

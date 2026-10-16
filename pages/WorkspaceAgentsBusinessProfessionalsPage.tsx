@@ -15,8 +15,8 @@ const WorkspaceAgentsBusinessProfessionalsPage: React.FC = () => {
         description="Workspace agents are moving AI from chat into business workflows. Learn the workflow mapping, context design, approval gates, testing, and governance skills professionals need next."
         canonical={`/blog/${ARTICLE_SLUG}`}
         ogType="article"
-        ogImage="https://academy.nexiuslabs.com/images/blog/approved/article-workspace-agents-business-workflows-sme-control-plane-2234447469c8.webp"
-        ogImageAlt="Workspace agents operating under control, represented in a cinematic graphite and silver composition"
+        ogImage="https://academy.nexiuslabs.com/images/blog/workspace-agents-business-professionals.png"
+        ogImageAlt="Workspace Agents: What Business Professionals Must Learn Before AI Starts Working Across Apps"
         ogImageWidth={1672}
         ogImageHeight={941}
       />
@@ -35,8 +35,8 @@ const WorkspaceAgentsBusinessProfessionalsPage: React.FC = () => {
           <ArticleMeta articleSlug={ARTICLE_SLUG} readTime="8 min read" />
 
           <img
-            src="/images/blog/approved/article-workspace-agents-business-workflows-sme-control-plane-2234447469c8.webp"
-            alt="Workspace agents operating under control, represented in a cinematic graphite and silver composition"
+            src="/images/blog/workspace-agents-business-professionals.png"
+            alt="Workspace Agents: What Business Professionals Must Learn Before AI Starts Working Across Apps"
             className="w-full rounded-xl shadow-md border border-gray-100 mb-8"
             loading="eager"
             width={1672}

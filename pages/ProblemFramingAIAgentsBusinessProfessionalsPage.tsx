@@ -15,8 +15,8 @@ const ProblemFramingAIAgentsBusinessProfessionalsPage: React.FC = () => {
         description="Learn how to turn vague AI requests into testable workplace problems before building an agent: recurring pain, evidence, decisions, exceptions, outcomes, and stop rules."
         canonical={`/blog/${ARTICLE_SLUG}`}
         ogType="article"
-        ogImage="https://academy.nexiuslabs.com/images/blog/approved/article-ai-problem-selection-sme-advantage-103bcc618358.webp"
-        ogImageAlt="Choosing valuable problems before rapid execution, represented in a cinematic graphite and silver composition"
+        ogImage="https://academy.nexiuslabs.com/images/blog/problem-framing-ai-agents-business-professionals.png"
+        ogImageAlt="Problem Framing for AI Agents: What Business Professionals Must Learn Before They Build"
         ogImageWidth={1672}
         ogImageHeight={941}
       />
@@ -35,8 +35,8 @@ const ProblemFramingAIAgentsBusinessProfessionalsPage: React.FC = () => {
           <ArticleMeta articleSlug={ARTICLE_SLUG} readTime="9 min read" />
 
           <img
-            src="/images/blog/approved/article-ai-problem-selection-sme-advantage-103bcc618358.webp"
-            alt="Choosing valuable problems before rapid execution, represented in a cinematic graphite and silver composition"
+            src="/images/blog/problem-framing-ai-agents-business-professionals.png"
+            alt="Problem Framing for AI Agents: What Business Professionals Must Learn Before They Build"
             className="w-full rounded-xl shadow-md border border-gray-100 mb-8"
             loading="eager"
             width={1672}

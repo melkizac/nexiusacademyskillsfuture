@@ -15,8 +15,8 @@ const AIConnectorsMCPBusinessPage: React.FC = () => {
         description="AI connectors, MCP, and work graph APIs are moving AI from chat into company systems. Learn the workflow, context, approval, testing, and governance skills professionals need next."
         canonical={`/blog/${ARTICLE_SLUG}`}
         ogType="article"
-        ogImage="https://academy.nexiuslabs.com/images/blog/approved/article-ai-connectors-workflow-layer-smes-control-30c0044db0af.webp"
-        ogImageAlt="Controlled connectors across business systems, represented in a cinematic graphite and silver composition"
+        ogImage="https://academy.nexiuslabs.com/images/blog/ai-connectors-mcp-business-professionals.png"
+        ogImageAlt="AI Connectors and MCP: What Business Professionals Must Learn Before Agents Touch Company Data"
         ogImageWidth={1672}
         ogImageHeight={941}
       />
@@ -35,8 +35,8 @@ const AIConnectorsMCPBusinessPage: React.FC = () => {
           <ArticleMeta articleSlug={ARTICLE_SLUG} readTime="8 min read" />
 
           <img
-            src="/images/blog/approved/article-ai-connectors-workflow-layer-smes-control-30c0044db0af.webp"
-            alt="Controlled connectors across business systems, represented in a cinematic graphite and silver composition"
+            src="/images/blog/ai-connectors-mcp-business-professionals.png"
+            alt="AI Connectors and MCP: What Business Professionals Must Learn Before Agents Touch Company Data"
             className="w-full rounded-xl shadow-md border border-gray-100 mb-8"
             loading="eager"
             width={1672}

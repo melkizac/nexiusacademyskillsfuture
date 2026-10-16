@@ -15,8 +15,8 @@ const FinanceAgentMakerCheckerBusinessProfessionalsPage: React.FC = () => {
         description="Finance AI agents are entering receivables and audit. Learn maker-checker workflow mapping, evidence design, approval rules, exception handling, testing, and auditability."
         canonical={`/blog/${ARTICLE_SLUG}`}
         ogType="article"
-        ogImage="https://academy.nexiuslabs.com/images/blog/approved/article-finance-ai-agents-maker-checker-controls-smes-49a6f3b74652.webp"
-        ogImageAlt="Finance maker-checker separation of duties, represented in a cinematic graphite and silver composition"
+        ogImage="https://academy.nexiuslabs.com/images/blog/finance-agent-maker-checker-business-professionals.png"
+        ogImageAlt="Finance AI Agents: What Business Professionals Must Learn About Maker-Checker Workflows"
         ogImageWidth={1672}
         ogImageHeight={941}
       />
@@ -33,8 +33,8 @@ const FinanceAgentMakerCheckerBusinessProfessionalsPage: React.FC = () => {
           <ArticleMeta articleSlug={ARTICLE_SLUG} readTime="9 min read" />
 
           <img
-            src="/images/blog/approved/article-finance-ai-agents-maker-checker-controls-smes-49a6f3b74652.webp"
-            alt="Finance maker-checker separation of duties, represented in a cinematic graphite and silver composition"
+            src="/images/blog/finance-agent-maker-checker-business-professionals.png"
+            alt="Finance AI Agents: What Business Professionals Must Learn About Maker-Checker Workflows"
             className="w-full rounded-xl shadow-md border border-gray-100 mb-8"
             loading="eager"
             width={1672}

@@ -1,0 +1,188 @@
+{
+  "date": "2026-10-15",
+  "scope": "Restore existing full-colour blog artwork on listing, article pages and social metadata",
+  "baseCommit": "04bb10e3c27420d01ba6fdaa0a87788bc33395ff",
+  "historicalReplacementCommit": "66c19f6",
+  "posts": [
+    {
+      "slug": "ai-agent-incident-response-business-professionals",
+      "previousMonochromeImage": "/images/blog/approved/article-ai-agent-incident-response-smes-5c96a2c7d96d.webp",
+      "image": "/images/blog/ai-agent-incident-response-business-professionals.png",
+      "alt": "AI Agent Incident Response: What Business Professionals Must Learn Before Digital Coworkers Go Wrong",
+      "sha256": "520d8ad5e5911421f9d353d9d2b3fb24cd196231233038b6c6ec5ec663b9ea82"
+    },
+    {
+      "slug": "agent-runtime-authorization-business-professionals",
+      "previousMonochromeImage": "/images/blog/approved/article-ai-agent-runtime-authorization-smes-9a314c802f27.webp",
+      "image": "/images/blog/agent-runtime-authorization-business-professionals.png",
+      "alt": "Runtime Authorization for AI Agents: What Business Professionals Must Learn Before Digital Coworkers Act",
+      "sha256": "6055d8c1d7b61d77e701e1f03cecd5aaf370f1f3b0d6ddb1ca89d4770cffe653"
+    },
+    {
+      "slug": "ai-agent-governance-skills-business-professionals",
+      "previousMonochromeImage": "/images/blog/approved/article-agent-control-plane-sme-digital-coworkers-75c8a4a0bd18.webp",
+      "image": "/images/blog/ai-agent-governance-skills-business-professionals.png",
+      "alt": "AI Agent Governance Skills: What Business Professionals Must Learn Before Agents Act",
+      "sha256": "d9ff25d1f2f896c0de091ca88feeb87032b73561abc37736901afeb8890bf2ef"
+    },
+    {
+      "slug": "agent-boss-concurrent-ai-work-business-professionals",
+      "previousMonochromeImage": "/images/blog/approved/article-ai-agent-capacity-smes-need-agent-boss-b14e2e1f18c6.webp",
+      "image": "/images/blog/agent-boss-concurrent-ai-work-business-professionals.png",
+      "alt": "Agent Boss Skills: What Business Professionals Must Learn Before Managing Concurrent AI Work",
+      "sha256": "26bb322e82fdadcf077b6e29f1291c34fed4c447f8c0820faef56e6708886f90"
+    },
+    {
+      "slug": "agent-finops-business-professionals",
+      "previousMonochromeImage": "/images/blog/approved/article-ai-agent-finops-cost-per-outcome-smes-31b6fbf9bc82.webp",
+      "image": "/images/blog/agent-finops-business-professionals.png",
+      "alt": "Agent FinOps: What Business Professionals Must Learn Before Digital Coworkers Scale",
+      "sha256": "2f125b2f1bed45a0c0112b42e82fb08d4226618bd0c0d613ed27c7176f0dfe36"
+    },
+    {
+      "slug": "problem-framing-ai-agents-business-professionals",
+      "previousMonochromeImage": "/images/blog/approved/article-ai-problem-selection-sme-advantage-103bcc618358.webp",
+      "image": "/images/blog/problem-framing-ai-agents-business-professionals.png",
+      "alt": "Problem Framing for AI Agents: What Business Professionals Must Learn Before They Build",
+      "sha256": "245a0181064d4fea98ca48e9d990ef15ea6a0f7f4ee4dd584ab61e7dabebca18"
+    },
+    {
+      "slug": "agent-team-diversity-business-professionals",
+      "previousMonochromeImage": "/images/blog/approved/article-agent-team-diversity-correlated-blind-spots-sme-f3e2462a4f65.webp",
+      "image": "/images/blog/agent-team-diversity-business-professionals.png",
+      "alt": "AI Agent Teams: What Business Professionals Must Learn About Designed Dissent",
+      "sha256": "39c85c71d846ed9362c99c3e6401fc105f7f45246904f515b96a02f83ad71bc4"
+    },
+    {
+      "slug": "finance-agent-maker-checker-business-professionals",
+      "previousMonochromeImage": "/images/blog/approved/article-finance-ai-agents-maker-checker-controls-smes-49a6f3b74652.webp",
+      "image": "/images/blog/finance-agent-maker-checker-business-professionals.png",
+      "alt": "Finance AI Agents: What Business Professionals Must Learn About Maker-Checker Workflows",
+      "sha256": "c736f37d17f7901117f8e57760dbb7332a764d11cf239f0cccdf2af39cfa08fb"
+    },
+    {
+      "slug": "agent-builders-business-professionals",
+      "previousMonochromeImage": "/images/blog/approved/article-agent-builders-business-apps-permission-boundaries-6b3a0e49ac10.webp",
+      "image": "/images/blog/agent-builders-business-professionals.png",
+      "alt": "Agent Builders: What Business Professionals Must Learn Before AI Starts Building Workflows",
+      "sha256": "5f79d413f4ca5a0766c0ae9006d34200e5f07267d906bbd99a5372084925bac7"
+    },
+    {
+      "slug": "agent-execution-readiness-business-professionals",
+      "previousMonochromeImage": "/images/blog/approved/article-ai-agents-execution-control-plane-smes-04243e593164.webp",
+      "image": "/images/blog/agent-execution-readiness-business-professionals.png",
+      "alt": "Agent Execution Readiness: What Business Professionals Must Learn Before AI Acts Across Tools",
+      "sha256": "9a63c56379ec28345a0d41bf9871bebe485fccdad61c38497410614410e7d4e7"
+    },
+    {
+      "slug": "agentic-ai-cost-control-business-professionals",
+      "previousMonochromeImage": "/images/blog/approved/article-agentic-ai-cost-leak-orchestration-not-prompts-b03f02c1ffda.webp",
+      "image": "/images/blog/agentic-ai-cost-control-business-professionals.png",
+      "alt": "Agentic AI Cost Control: What Business Professionals Must Learn Before Agents Start Executing Work",
+      "sha256": "d2effe5c5b00e76dca688ee1f491fa2c0fd1e8a2b7a07e1e261cc41e5b3cec6b"
+    },
+    {
+      "slug": "workspace-agents-business-professionals",
+      "previousMonochromeImage": "/images/blog/approved/article-workspace-agents-business-workflows-sme-control-plane-2234447469c8.webp",
+      "image": "/images/blog/workspace-agents-business-professionals.png",
+      "alt": "Workspace Agents: What Business Professionals Must Learn Before AI Starts Working Across Apps",
+      "sha256": "371edc1a9638bdda8b245d809498b7d10c1014b4344a95e4d2e3287ab19a5f6e"
+    },
+    {
+      "slug": "research-agents-business-professionals",
+      "previousMonochromeImage": "/images/blog/approved/article-research-agents-need-decision-logs-7201e2a29541.webp",
+      "image": "/images/blog/research-agents-business-professionals.png",
+      "alt": "Research Agents: What Business Professionals Must Learn Before AI Starts Writing the Brief",
+      "sha256": "fd045aeed6a5a2b8c79b44f29ae7fbf54b74c06ed8dffc750b323599a21834f8"
+    },
+    {
+      "slug": "agent-handoffs-business-professionals",
+      "previousMonochromeImage": "/images/blog/approved/article-agent-handoffs-sme-digital-coworkers-f6b40c0077fa.webp",
+      "image": "/images/blog/agent-handoffs-business-professionals.png",
+      "alt": "Agent Handoffs: What Business Professionals Must Learn Before AI Coworkers Start Passing Work to Each Other",
+      "sha256": "db8c56c1ebcc36ab9072e7a2bf52c927ecb8f5354cda82ace12a175f703be3fb"
+    },
+    {
+      "slug": "ai-connectors-mcp-business-professionals",
+      "previousMonochromeImage": "/images/blog/approved/article-ai-connectors-workflow-layer-smes-control-30c0044db0af.webp",
+      "image": "/images/blog/ai-connectors-mcp-business-professionals.png",
+      "alt": "AI Connectors and MCP: What Business Professionals Must Learn Before Agents Touch Company Data",
+      "sha256": "d4a4268a49847ad31bc86a53893fdf25b03fe65485fc84cf5f34be540bfa8e7d"
+    },
+    {
+      "slug": "dashboard-agents-business-professionals",
+      "previousMonochromeImage": "/images/blog/approved/article-dashboard-agents-smes-decision-workflows-b47ba4c7f932.webp",
+      "image": "/images/blog/dashboard-agents-decision-workflows.png",
+      "alt": "Dashboard Agents: What Business Professionals Must Learn Before AI Starts Explaining the Numbers",
+      "sha256": "25a6c4bac9d61d94f1552f4139636f6481affa00c60b5d6cc2fdf45d143f6aec"
+    },
+    {
+      "slug": "always-on-agents-work-iq-business-professionals",
+      "previousMonochromeImage": "/images/blog/approved/article-always-on-agents-work-iq-smes-operating-control-7ae17e73e38c.webp",
+      "image": "/images/blog/always-on-agents-work-iq.png",
+      "alt": "Always-On AI Agents: What Business Professionals Must Learn Before Work Gets Automated Around Them",
+      "sha256": "f5bd293c7f6c4da61c380047e06e7b2627e0fcc738d78a4379226aaebb96d952"
+    },
+    {
+      "slug": "computer-using-agents-business-professionals",
+      "previousMonochromeImage": "/images/blog/approved/article-agentic-ai-execution-layer-smes-operating-control-f19d74b5b5a1.webp",
+      "image": "/images/blog/computer-using-agents.png",
+      "alt": "Computer-Using Agents: What Business Professionals Need to Learn Before They Automate",
+      "sha256": "8c0eec85c0706a6c443bbcd4938edb75403b8efea374ee6dfe797e3bc916df1c"
+    },
+    {
+      "slug": "beyond-chatgpt-ai-powered-company",
+      "previousMonochromeImage": "/images/blog/approved/what-must-change-572bae41b7e2.webp",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=800&q=80",
+      "alt": "Beyond ChatGPT: 4 Hard Truths About Building an AI-Powered Company"
+    },
+    {
+      "slug": "enterprise-ai-insights",
+      "previousMonochromeImage": "/images/blog/approved/client-results-da0a09cac6d5.webp",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
+      "alt": "Beyond the Hype: 5 Things We Just Learned About How Enterprises Really Use AI"
+    },
+    {
+      "slug": "anthropic-ai-skills",
+      "previousMonochromeImage": "/images/blog/approved/guide-work-loops-7c1564772ffe.webp",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=800&q=80",
+      "alt": "4 Counter-Intuitive Ideas From Anthropic on Building AI That Actually Works"
+    },
+    {
+      "slug": "what-is-agentic-ai-guide",
+      "previousMonochromeImage": "/images/blog/approved/article-the-rise-of-ai-agents-and-their-impact-on-business-automation-f88529f92ded.webp",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=800&q=80",
+      "alt": "What Is Agentic AI? A Complete Guide for Business Professionals"
+    },
+    {
+      "slug": "best-ai-courses-singapore-2026",
+      "previousMonochromeImage": "/images/blog/approved/career-learning-dde6e55e0163.webp",
+      "image": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=800&q=80",
+      "alt": "Best AI Course Singapore 2026: SkillsFuture Comparison Guide"
+    },
+    {
+      "slug": "smes-no-code-ai-automation-singapore",
+      "previousMonochromeImage": "/images/blog/approved/automation-7110f21b7398.webp",
+      "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=800&q=80",
+      "alt": "How SMEs in Singapore Are Using No-Code AI Automation to Scale"
+    },
+    {
+      "slug": "ai-literacy-corporate-learning-2026",
+      "previousMonochromeImage": "/images/blog/approved/how-we-help-db0d0649108e.webp",
+      "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80",
+      "alt": "AI Literacy for Corporate Learning in 2026: How L&D Teams Should Prepare for Agentic AI"
+    },
+    {
+      "slug": "ai-readiness-singapore-2026-agentic-ai",
+      "previousMonochromeImage": "/images/blog/approved/where-to-start-2cf8d6a55be1.webp",
+      "image": "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=800&q=80",
+      "alt": "AI Readiness in Singapore 2026: What to Check Before You Build AI Agents"
+    },
+    {
+      "slug": "best-ai-for-coding-business-professionals",
+      "previousMonochromeImage": "/images/blog/approved/implementation-769053f717e2.webp",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80",
+      "alt": "Best AI for Coding? What Business Professionals Should Really Learn"
+    }
+  ]
+}

@@ -15,8 +15,8 @@ const AgentHandoffsBusinessPage: React.FC = () => {
         description="Agent-to-agent protocols show AI moving from isolated assistants to coordinated digital coworkers. Learn the workflow mapping, context, approval, testing, and governance skills professionals need next."
         canonical={`/blog/${ARTICLE_SLUG}`}
         ogType="article"
-        ogImage="https://academy.nexiuslabs.com/images/blog/approved/article-agent-handoffs-sme-digital-coworkers-f6b40c0077fa.webp"
-        ogImageAlt="Governed handoffs between agents, represented in a cinematic graphite and silver composition"
+        ogImage="https://academy.nexiuslabs.com/images/blog/agent-handoffs-business-professionals.png"
+        ogImageAlt="Agent Handoffs: What Business Professionals Must Learn Before AI Coworkers Start Passing Work to Each Other"
         ogImageWidth={1672}
         ogImageHeight={941}
       />
@@ -35,8 +35,8 @@ const AgentHandoffsBusinessPage: React.FC = () => {
           <ArticleMeta articleSlug={ARTICLE_SLUG} readTime="8 min read" />
 
           <img
-            src="/images/blog/approved/article-agent-handoffs-sme-digital-coworkers-f6b40c0077fa.webp"
-            alt="Governed handoffs between agents, represented in a cinematic graphite and silver composition"
+            src="/images/blog/agent-handoffs-business-professionals.png"
+            alt="Agent Handoffs: What Business Professionals Must Learn Before AI Coworkers Start Passing Work to Each Other"
             className="w-full rounded-xl shadow-md border border-gray-100 mb-8"
             loading="eager"
             width={1672}

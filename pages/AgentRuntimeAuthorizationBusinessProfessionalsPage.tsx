@@ -15,8 +15,8 @@ const AgentRuntimeAuthorizationBusinessProfessionalsPage: React.FC = () => {
         description="Learn how to decide whether an AI agent should be allowed to take a specific action using identity, intent, scope, risk, approval, and audit evidence."
         canonical={`/blog/${ARTICLE_SLUG}`}
         ogType="article"
-        ogImage="https://academy.nexiuslabs.com/images/blog/approved/article-ai-agent-runtime-authorization-smes-9a314c802f27.webp"
-        ogImageAlt="Runtime authorisation for each action, represented in a cinematic graphite and silver composition"
+        ogImage="https://academy.nexiuslabs.com/images/blog/agent-runtime-authorization-business-professionals.png"
+        ogImageAlt="Runtime Authorization for AI Agents: What Business Professionals Must Learn Before Digital Coworkers Act"
         ogImageWidth={1672}
         ogImageHeight={941}
       />
@@ -35,8 +35,8 @@ const AgentRuntimeAuthorizationBusinessProfessionalsPage: React.FC = () => {
           <ArticleMeta articleSlug={ARTICLE_SLUG} readTime="9 min read" />
 
           <img
-            src="/images/blog/approved/article-ai-agent-runtime-authorization-smes-9a314c802f27.webp"
-            alt="Runtime authorisation for each action, represented in a cinematic graphite and silver composition"
+            src="/images/blog/agent-runtime-authorization-business-professionals.png"
+            alt="Runtime Authorization for AI Agents: What Business Professionals Must Learn Before Digital Coworkers Act"
             className="w-full rounded-xl shadow-md border border-gray-100 mb-8"
             loading="eager"
             width={1672}

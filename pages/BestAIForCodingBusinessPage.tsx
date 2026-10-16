@@ -13,8 +13,8 @@ const BestAIForCodingBusinessPage: React.FC = () => {
         description="Search interest in AI coding tools signals a shift from chat to execution. Learn what non-technical professionals should take from it."
         canonical="/blog/best-ai-for-coding-business-professionals"
         ogType="article"
-        ogImage="https://academy.nexiuslabs.com/images/blog/approved/implementation-769053f717e2.webp"
-        ogImageAlt="A focused agent integrated into an existing workflow, represented in a cinematic graphite and silver composition"
+        ogImage="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80"
+        ogImageAlt="Best AI for Coding? What Business Professionals Should Really Learn"
         ogImageWidth={1672}
         ogImageHeight={941}
       />
@@ -31,7 +31,7 @@ const BestAIForCodingBusinessPage: React.FC = () => {
           </h1>
 
           <ArticleMeta articleSlug="best-ai-for-coding-business-professionals" readTime="8 min read" />
-          <img src="/images/blog/approved/implementation-769053f717e2.webp" alt="A focused agent integrated into an existing workflow, represented in a cinematic graphite and silver composition" width={1672} height={941} className="w-full h-auto rounded-xl mb-8" loading="eager" decoding="async" />
+          <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80" alt="Best AI for Coding? What Business Professionals Should Really Learn" width={1672} height={941} className="w-full h-auto rounded-xl mb-8" loading="eager" decoding="async" />
 
           <p className="mb-6 text-lg leading-relaxed text-[#333]">
             The AI question getting the strongest public search signal right now is not just "what is AI?" It is more practical: <strong className="font-semibold text-[#1a1a1a]">"best AI for coding."</strong> Google's public AI search trends list "best ai for coding" as the top "best AI for..." search, ahead of writing, math, image generation, and essays.

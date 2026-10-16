@@ -15,8 +15,8 @@ const AgentFinOpsBusinessProfessionalsPage: React.FC = () => {
         description="Learn to budget, measure, and govern AI agent workflows by cost per completed outcome—not token volume alone."
         canonical={`/blog/${ARTICLE_SLUG}`}
         ogType="article"
-        ogImage="https://academy.nexiuslabs.com/images/blog/approved/article-ai-agent-finops-cost-per-outcome-smes-31b6fbf9bc82.webp"
-        ogImageAlt="Cost per accepted outcome, represented in a cinematic graphite and silver composition"
+        ogImage="https://academy.nexiuslabs.com/images/blog/agent-finops-business-professionals.png"
+        ogImageAlt="Agent FinOps: What Business Professionals Must Learn Before Digital Coworkers Scale"
         ogImageWidth={1672}
         ogImageHeight={941}
       />
@@ -35,8 +35,8 @@ const AgentFinOpsBusinessProfessionalsPage: React.FC = () => {
           <ArticleMeta articleSlug={ARTICLE_SLUG} readTime="9 min read" />
 
           <img
-            src="/images/blog/approved/article-ai-agent-finops-cost-per-outcome-smes-31b6fbf9bc82.webp"
-            alt="Cost per accepted outcome, represented in a cinematic graphite and silver composition"
+            src="/images/blog/agent-finops-business-professionals.png"
+            alt="Agent FinOps: What Business Professionals Must Learn Before Digital Coworkers Scale"
             className="w-full rounded-xl shadow-md border border-gray-100 mb-8"
             loading="eager"
             width={1672}

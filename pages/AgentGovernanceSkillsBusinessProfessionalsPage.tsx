@@ -15,8 +15,8 @@ const AgentGovernanceSkillsBusinessProfessionalsPage: React.FC = () => {
         description="Learn the practical skills needed to inventory, supervise, test, approve, and audit AI agents before they act across business systems."
         canonical={`/blog/${ARTICLE_SLUG}`}
         ogType="article"
-        ogImage="https://academy.nexiuslabs.com/images/blog/approved/article-agent-control-plane-sme-digital-coworkers-75c8a4a0bd18.webp"
-        ogImageAlt="The operating control plane above autonomous work, represented in a cinematic graphite and silver composition"
+        ogImage="https://academy.nexiuslabs.com/images/blog/ai-agent-governance-skills-business-professionals.png"
+        ogImageAlt="AI Agent Governance Skills: What Business Professionals Must Learn Before Agents Act"
         ogImageWidth={1672}
         ogImageHeight={941}
       />
@@ -35,8 +35,8 @@ const AgentGovernanceSkillsBusinessProfessionalsPage: React.FC = () => {
           <ArticleMeta articleSlug={ARTICLE_SLUG} readTime="9 min read" />
 
           <img
-            src="/images/blog/approved/article-agent-control-plane-sme-digital-coworkers-75c8a4a0bd18.webp"
-            alt="The operating control plane above autonomous work, represented in a cinematic graphite and silver composition"
+            src="/images/blog/ai-agent-governance-skills-business-professionals.png"
+            alt="AI Agent Governance Skills: What Business Professionals Must Learn Before Agents Act"
             className="w-full rounded-xl shadow-md border border-gray-100 mb-8"
             loading="eager"
             width={1672}

@@ -13,8 +13,8 @@ const CorporateAILiteracyPage: React.FC = () => {
         description="Learn how corporate learning teams can build practical AI fluency, role-based training, and agentic AI readiness in 2026."
         canonical="/blog/ai-literacy-corporate-learning-2026"
         ogType="article"
-        ogImage="https://academy.nexiuslabs.com/images/blog/approved/how-we-help-db0d0649108e.webp"
-        ogImageAlt="Connecting capability to governed execution, represented in a cinematic graphite and silver composition"
+        ogImage="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80"
+        ogImageAlt="AI Literacy for Corporate Learning in 2026: How L&D Teams Should Prepare for Agentic AI"
         ogImageWidth={1672}
         ogImageHeight={941}
       />
@@ -31,7 +31,7 @@ const CorporateAILiteracyPage: React.FC = () => {
           </h1>
 
           <ArticleMeta articleSlug="ai-literacy-corporate-learning-2026" readTime="9 min read" />
-          <img src="/images/blog/approved/how-we-help-db0d0649108e.webp" alt="Connecting capability to governed execution, represented in a cinematic graphite and silver composition" width={1672} height={941} className="w-full h-auto rounded-xl mb-8" loading="eager" decoding="async" />
+          <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80" alt="AI Literacy for Corporate Learning in 2026: How L&D Teams Should Prepare for Agentic AI" width={1672} height={941} className="w-full h-auto rounded-xl mb-8" loading="eager" decoding="async" />
 
           <h2 className="text-3xl font-bold text-[#1a1a1a] mt-10 mb-5 border-l-4 border-[#007bff] pl-4">
             Corporate Learning Has Moved Beyond Basic AI Awareness

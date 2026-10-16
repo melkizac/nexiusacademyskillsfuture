@@ -15,8 +15,8 @@ const AgentBossConcurrentWorkBusinessProfessionalsPage: React.FC = () => {
         description="Learn how business professionals can brief, supervise, review, and improve concurrent AI agent work without losing judgment, quality, or control."
         canonical={`/blog/${ARTICLE_SLUG}`}
         ogType="article"
-        ogImage="https://academy.nexiuslabs.com/images/blog/approved/article-ai-agent-capacity-smes-need-agent-boss-b14e2e1f18c6.webp"
-        ogImageAlt="Agent capacity outpacing human review capacity, represented in a cinematic graphite and silver composition"
+        ogImage="https://academy.nexiuslabs.com/images/blog/agent-boss-concurrent-ai-work-business-professionals.png"
+        ogImageAlt="Agent Boss Skills: What Business Professionals Must Learn Before Managing Concurrent AI Work"
         ogImageWidth={1672}
         ogImageHeight={941}
       />
@@ -35,8 +35,8 @@ const AgentBossConcurrentWorkBusinessProfessionalsPage: React.FC = () => {
           <ArticleMeta articleSlug={ARTICLE_SLUG} readTime="9 min read" />
 
           <img
-            src="/images/blog/approved/article-ai-agent-capacity-smes-need-agent-boss-b14e2e1f18c6.webp"
-            alt="Agent capacity outpacing human review capacity, represented in a cinematic graphite and silver composition"
+            src="/images/blog/agent-boss-concurrent-ai-work-business-professionals.png"
+            alt="Agent Boss Skills: What Business Professionals Must Learn Before Managing Concurrent AI Work"
             className="w-full rounded-xl shadow-md border border-gray-100 mb-8"
             loading="eager"
             width={1672}

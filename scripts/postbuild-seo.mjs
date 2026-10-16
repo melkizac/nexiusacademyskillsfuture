@@ -1056,7 +1056,7 @@ const routes = [
     description:
       'Most companies hit an AI plateau after adopting ChatGPT. Learn the leadership, structure, and strategy shifts behind AI-powered companies.',
     ogType: 'article',
-    ogImage: "https://academy.nexiuslabs.com/images/blog/approved/what-must-change-572bae41b7e2.webp",
+    ogImage: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=800&q=80",
     schemas: [],
     articleDate: '2025-12-10',
   },
@@ -1069,7 +1069,7 @@ const routes = [
     description:
       'Real-world insights on how enterprises deploy AI at scale, with strategies and lessons from agentic AI implementation.',
     ogType: 'article',
-    ogImage: "https://academy.nexiuslabs.com/images/blog/approved/client-results-da0a09cac6d5.webp",
+    ogImage: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
     schemas: [],
     articleDate: '2025-06-02',
   },
@@ -1082,7 +1082,7 @@ const routes = [
     description:
       "Explore the essential AI skills from Anthropic's ecosystem that business professionals need in 2026. From Claude to enterprise AI deployment strategies.",
     ogType: 'article',
-    ogImage: "https://academy.nexiuslabs.com/images/blog/approved/guide-work-loops-7c1564772ffe.webp",
+    ogImage: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=800&q=80",
     schemas: [],
     articleDate: '2025-12-12',
   },
@@ -1095,7 +1095,7 @@ const routes = [
     description:
       'Learn what agentic AI is, how it differs from generative AI, and why Singapore business professionals need to understand the shift.',
     ogType: 'article',
-    ogImage: "https://academy.nexiuslabs.com/images/blog/approved/article-the-rise-of-ai-agents-and-their-impact-on-business-automation-f88529f92ded.webp",
+    ogImage: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=800&q=80",
     schemas: [],
     articleDate: '2026-01-08',
   },
@@ -1109,7 +1109,7 @@ const routes = [
     description:
       'Compare the best AI course options in Singapore, including SkillsFuture-supported agentic AI training, fees, formats, outcomes, and eligibility checks.',
     ogType: 'article',
-    ogImage: "https://academy.nexiuslabs.com/images/blog/approved/career-learning-dde6e55e0163.webp",
+    ogImage: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=800&q=80",
     schemas: [faqSchema(bestAICourseFaqs)],
     articleDate: '2026-01-22',
   },
@@ -1122,7 +1122,7 @@ const routes = [
     description:
       'See how Singapore SMEs use no-code AI automation to cut costs, scale operations, and compete with larger firms.',
     ogType: 'article',
-    ogImage: "https://academy.nexiuslabs.com/images/blog/approved/automation-7110f21b7398.webp",
+    ogImage: "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=800&q=80",
     schemas: [],
     articleDate: '2026-02-05',
   },
@@ -1135,7 +1135,7 @@ const routes = [
     description:
       'Learn how corporate learning teams can build practical AI fluency, role-based training, and agentic AI readiness in 2026.',
     ogType: 'article',
-    ogImage: "https://academy.nexiuslabs.com/images/blog/approved/how-we-help-db0d0649108e.webp",
+    ogImage: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80",
     schemas: [],
     articleDate: '2026-04-19',
   },
@@ -1148,7 +1148,7 @@ const routes = [
     description:
       'A practical AI-readiness checklist for Singapore professionals and SMEs before adopting agentic AI workflows, no-code automation, and workplace AI tools.',
     ogType: 'article',
-    ogImage: "https://academy.nexiuslabs.com/images/blog/approved/where-to-start-2cf8d6a55be1.webp",
+    ogImage: "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=800&q=80",
     schemas: [],
     articleDate: '2026-05-15',
   },
@@ -1161,7 +1161,7 @@ const routes = [
     description:
       'Search interest in AI coding tools signals a shift from chat to execution. Learn what non-technical professionals should take from it.',
     ogType: 'article',
-    ogImage: "https://academy.nexiuslabs.com/images/blog/approved/implementation-769053f717e2.webp",
+    ogImage: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80",
     schemas: [],
     articleDate: '2026-05-21',
   },
@@ -1174,7 +1174,7 @@ const routes = [
     description:
       'Learn what computer-using agents are, why they matter for non-technical teams, and the practical skills needed to supervise AI workflows safely.',
     ogType: 'article',
-    ogImage: "https://academy.nexiuslabs.com/images/blog/approved/article-agentic-ai-execution-layer-smes-operating-control-f19d74b5b5a1.webp",
+    ogImage: "https://academy.nexiuslabs.com/images/blog/computer-using-agents.png",
     schemas: [],
     articleDate: '2026-05-30',
   },
@@ -1187,7 +1187,7 @@ const routes = [
     description:
       'Microsoft Scout and Work IQ show AI moving into always-on workplace execution. Learn the practical skills professionals need before supervising agents.',
     ogType: 'article',
-    ogImage: "https://academy.nexiuslabs.com/images/blog/approved/article-always-on-agents-work-iq-smes-operating-control-7ae17e73e38c.webp",
+    ogImage: "https://academy.nexiuslabs.com/images/blog/always-on-agents-work-iq.png",
     schemas: [],
     articleDate: '2026-06-08',
   },
@@ -1200,7 +1200,7 @@ const routes = [
     description:
       "Google Cloud's Looker agents show analytics moving from static dashboards to AI-assisted decision workflows. Learn the practical skills professionals need next.",
     ogType: 'article',
-    ogImage: "https://academy.nexiuslabs.com/images/blog/approved/article-dashboard-agents-smes-decision-workflows-b47ba4c7f932.webp",
+    ogImage: "https://academy.nexiuslabs.com/images/blog/dashboard-agents-decision-workflows.png",
     ogImageAlt: 'Dashboard agents turning business metrics into governed decision workflows',
     schemas: [],
     articleDate: '2026-06-15',
@@ -1214,7 +1214,7 @@ const routes = [
     description:
       'AI connectors, MCP, and work graph APIs are moving AI from chat into company systems. Learn the workflow, context, approval, testing, and governance skills professionals need next.',
     ogType: 'article',
-    ogImage: "https://academy.nexiuslabs.com/images/blog/approved/article-ai-connectors-workflow-layer-smes-control-30c0044db0af.webp",
+    ogImage: "https://academy.nexiuslabs.com/images/blog/ai-connectors-mcp-business-professionals.png",
     ogImageAlt: 'Business professionals learning to design governed AI connector workflows',
     schemas: [],
     articleDate: '2026-06-22',
@@ -1228,7 +1228,7 @@ const routes = [
     description:
       'Agent-to-agent protocols show AI moving from isolated assistants to coordinated digital coworkers. Learn the workflow mapping, context, approval, testing, and governance skills professionals need next.',
     ogType: 'article',
-    ogImage: "https://academy.nexiuslabs.com/images/blog/approved/article-agent-handoffs-sme-digital-coworkers-f6b40c0077fa.webp",
+    ogImage: "https://academy.nexiuslabs.com/images/blog/agent-handoffs-business-professionals.png",
     ogImageAlt: 'Business professionals mapping governed AI agent handoffs and approval gates',
     schemas: [],
     articleDate: '2026-06-29',
@@ -1242,7 +1242,7 @@ const routes = [
     description:
       'AI research agents are moving from chat answers to decision-prep workflows. Learn the source-checking, context, approval, testing, and governance skills professionals need next.',
     ogType: 'article',
-    ogImage: "https://academy.nexiuslabs.com/images/blog/approved/article-research-agents-need-decision-logs-7201e2a29541.webp",
+    ogImage: "https://academy.nexiuslabs.com/images/blog/research-agents-business-professionals.png",
     ogImageAlt: 'Business professionals supervising AI research agents with source checks and approval gates',
     schemas: [],
     articleDate: '2026-07-06',
@@ -1256,7 +1256,7 @@ const routes = [
     description:
       'Workspace agents are moving AI from chat into business workflows. Learn the workflow mapping, context design, approval gates, testing, and governance skills professionals need next.',
     ogType: 'article',
-    ogImage: "https://academy.nexiuslabs.com/images/blog/approved/article-workspace-agents-business-workflows-sme-control-plane-2234447469c8.webp",
+    ogImage: "https://academy.nexiuslabs.com/images/blog/workspace-agents-business-professionals.png",
     ogImageAlt: 'Business professionals mapping governed workspace AI agent workflows and approval gates',
     schemas: [],
     articleDate: '2026-07-13',
@@ -1270,7 +1270,7 @@ const routes = [
     description:
       'Agentic AI cost pressure is an orchestration problem. Learn the workflow mapping, context design, approval gates, testing, and governance skills professionals need before agents execute work.',
     ogType: 'article',
-    ogImage: "https://academy.nexiuslabs.com/images/blog/approved/article-agentic-ai-cost-leak-orchestration-not-prompts-b03f02c1ffda.webp",
+    ogImage: "https://academy.nexiuslabs.com/images/blog/agentic-ai-cost-control-business-professionals.png",
     ogImageAlt: 'Business professionals controlling agentic AI costs through workflow orchestration and approval gates',
     schemas: [],
     articleDate: '2026-07-20',
@@ -1284,7 +1284,7 @@ const routes = [
     description:
       'AI agents are moving from chat into business execution. Learn the workflow mapping, context design, approval gates, testing, and governance skills professionals need before agents act across tools.',
     ogType: 'article',
-    ogImage: "https://academy.nexiuslabs.com/images/blog/approved/article-ai-agents-execution-control-plane-smes-04243e593164.webp",
+    ogImage: "https://academy.nexiuslabs.com/images/blog/agent-execution-readiness-business-professionals.png",
     ogImageAlt: 'Business professionals designing agent execution readiness controls across workplace tools',
     schemas: [],
     articleDate: '2026-07-27',
@@ -1298,7 +1298,7 @@ const routes = [
     description:
       'Enterprise agent builders are moving AI from chat into workflow construction. Learn the workflow mapping, permission boundaries, approval gates, testing, and telemetry skills professionals need next.',
     ogType: 'article',
-    ogImage: "https://academy.nexiuslabs.com/images/blog/approved/article-agent-builders-business-apps-permission-boundaries-6b3a0e49ac10.webp",
+    ogImage: "https://academy.nexiuslabs.com/images/blog/agent-builders-business-professionals.png",
     ogImageAlt: 'Business professionals mapping permission boundaries for AI agent builders',
     schemas: [],
     articleDate: '2026-08-03',
@@ -1312,7 +1312,7 @@ const routes = [
     description:
       'Finance AI agents are entering receivables and audit. Learn maker-checker workflow mapping, evidence design, approval rules, exception handling, testing, and auditability.',
     ogType: 'article',
-    ogImage: "https://academy.nexiuslabs.com/images/blog/approved/article-finance-ai-agents-maker-checker-controls-smes-49a6f3b74652.webp",
+    ogImage: "https://academy.nexiuslabs.com/images/blog/finance-agent-maker-checker-business-professionals.png",
     ogImageAlt: 'Business professionals learning maker-checker workflow design for finance AI agents',
     schemas: [],
     articleDate: '2026-08-10',
@@ -1326,7 +1326,7 @@ const routes = [
     description:
       'More AI agents can repeat the same blind spot. Learn evidence-lane design, dissent roles, integration, testing, and human judgment for reliable agent teams.',
     ogType: 'article',
-    ogImage: "https://academy.nexiuslabs.com/images/blog/approved/article-agent-team-diversity-correlated-blind-spots-sme-f3e2462a4f65.webp",
+    ogImage: "https://academy.nexiuslabs.com/images/blog/agent-team-diversity-business-professionals.png",
     ogImageAlt: 'Business professional learning to design independent evidence lanes and constructive dissent for AI agent teams',
     schemas: [],
     articleDate: '2026-08-17',
@@ -1340,7 +1340,7 @@ const routes = [
     description:
       'Learn how to turn vague AI requests into testable workplace problems before building an agent: recurring pain, evidence, decisions, exceptions, outcomes, and stop rules.',
     ogType: 'article',
-    ogImage: "https://academy.nexiuslabs.com/images/blog/approved/article-ai-problem-selection-sme-advantage-103bcc618358.webp",
+    ogImage: "https://academy.nexiuslabs.com/images/blog/problem-framing-ai-agents-business-professionals.png",
     ogImageAlt: 'Business professionals turning vague AI requests into clear workflow problem statements',
     schemas: [],
     articleDate: '2026-08-24',
@@ -1354,7 +1354,7 @@ const routes = [
     description:
       'Learn to budget, measure, and govern AI agent workflows by cost per completed outcome—not token volume alone.',
     ogType: 'article',
-    ogImage: "https://academy.nexiuslabs.com/images/blog/approved/article-ai-agent-finops-cost-per-outcome-smes-31b6fbf9bc82.webp",
+    ogImage: "https://academy.nexiuslabs.com/images/blog/agent-finops-business-professionals.png",
     ogImageAlt: 'Business professionals learning to measure and control AI agent workflow costs',
     schemas: [],
     articleDate: '2026-08-31',
@@ -1368,7 +1368,7 @@ const routes = [
     description:
       'Learn how business professionals can brief, supervise, review, and improve concurrent AI agent work without losing judgment, quality, or control.',
     ogType: 'article',
-    ogImage: "https://academy.nexiuslabs.com/images/blog/approved/article-ai-agent-capacity-smes-need-agent-boss-b14e2e1f18c6.webp",
+    ogImage: "https://academy.nexiuslabs.com/images/blog/agent-boss-concurrent-ai-work-business-professionals.png",
     ogImageAlt: 'Business professionals learning to supervise concurrent AI agent work',
     schemas: [],
     articleDate: '2026-09-07',
@@ -1382,7 +1382,7 @@ const routes = [
     description:
       'Learn the practical skills needed to inventory, supervise, test, approve, and audit AI agents before they act across business systems.',
     ogType: 'article',
-    ogImage: "https://academy.nexiuslabs.com/images/blog/approved/article-agent-control-plane-sme-digital-coworkers-75c8a4a0bd18.webp",
+    ogImage: "https://academy.nexiuslabs.com/images/blog/ai-agent-governance-skills-business-professionals.png",
     ogImageAlt: 'Business professional learning to supervise governed AI agents',
     schemas: [],
     articleDate: '2026-09-14',
@@ -1396,7 +1396,7 @@ const routes = [
     description:
       'Learn to authorize AI agent actions using identity, intent, scope, risk, human approval, stop conditions, and auditable evidence.',
     ogType: 'article',
-    ogImage: "https://academy.nexiuslabs.com/images/blog/approved/article-ai-agent-runtime-authorization-smes-9a314c802f27.webp",
+    ogImage: "https://academy.nexiuslabs.com/images/blog/agent-runtime-authorization-business-professionals.png",
     ogImageAlt: 'Business professionals learning to supervise AI agent permissions and approvals',
     schemas: [],
     articleDate: '2026-09-21',
@@ -1410,7 +1410,7 @@ const routes = [
     description:
       'Learn how business professionals can detect, contain, investigate, recover, and improve when a digital coworker goes outside its intended workflow.',
     ogType: 'article',
-    ogImage: "https://academy.nexiuslabs.com/images/blog/approved/article-ai-agent-incident-response-smes-5c96a2c7d96d.webp",
+    ogImage: "https://academy.nexiuslabs.com/images/blog/ai-agent-incident-response-business-professionals.png",
     ogImageAlt: 'Singapore business professionals practising an AI agent incident response drill',
     schemas: [],
     articleDate: '2026-09-28',

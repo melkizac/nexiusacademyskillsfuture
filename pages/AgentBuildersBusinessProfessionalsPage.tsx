@@ -15,8 +15,8 @@ const AgentBuildersBusinessProfessionalsPage: React.FC = () => {
         description="Enterprise agent builders are moving AI from chat into workflow construction. Learn the workflow mapping, permission boundaries, approval gates, testing, and telemetry skills professionals need next."
         canonical={`/blog/${ARTICLE_SLUG}`}
         ogType="article"
-        ogImage="https://academy.nexiuslabs.com/images/blog/approved/article-agent-builders-business-apps-permission-boundaries-6b3a0e49ac10.webp"
-        ogImageAlt="Bounded agent creation inside business apps, represented in a cinematic graphite and silver composition"
+        ogImage="https://academy.nexiuslabs.com/images/blog/agent-builders-business-professionals.png"
+        ogImageAlt="Agent Builders: What Business Professionals Must Learn Before AI Starts Building Workflows"
         ogImageWidth={1672}
         ogImageHeight={941}
       />
@@ -35,8 +35,8 @@ const AgentBuildersBusinessProfessionalsPage: React.FC = () => {
           <ArticleMeta articleSlug={ARTICLE_SLUG} readTime="8 min read" />
 
           <img
-            src="/images/blog/approved/article-agent-builders-business-apps-permission-boundaries-6b3a0e49ac10.webp"
-            alt="Bounded agent creation inside business apps, represented in a cinematic graphite and silver composition"
+            src="/images/blog/agent-builders-business-professionals.png"
+            alt="Agent Builders: What Business Professionals Must Learn Before AI Starts Building Workflows"
             className="w-full rounded-xl shadow-md border border-gray-100 mb-8"
             loading="eager"
             width={1672}

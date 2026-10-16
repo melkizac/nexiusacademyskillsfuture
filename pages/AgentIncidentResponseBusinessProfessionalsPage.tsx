@@ -15,8 +15,8 @@ const AgentIncidentResponseBusinessProfessionalsPage: React.FC = () => {
         description="Learn how to contain, investigate, recover, and improve when a digital coworker goes outside its intended workflow."
         canonical={`/blog/${ARTICLE_SLUG}`}
         ogType="article"
-        ogImage="https://academy.nexiuslabs.com/images/blog/approved/article-ai-agent-incident-response-smes-5c96a2c7d96d.webp"
-        ogImageAlt="Incident response and recoverability, represented in a cinematic graphite and silver composition"
+        ogImage="https://academy.nexiuslabs.com/images/blog/ai-agent-incident-response-business-professionals.png"
+        ogImageAlt="AI Agent Incident Response: What Business Professionals Must Learn Before Digital Coworkers Go Wrong"
         ogImageWidth={1672}
         ogImageHeight={941}
       />
@@ -40,8 +40,8 @@ const AgentIncidentResponseBusinessProfessionalsPage: React.FC = () => {
           />
 
           <img
-            src="/images/blog/approved/article-ai-agent-incident-response-smes-5c96a2c7d96d.webp"
-            alt="Incident response and recoverability, represented in a cinematic graphite and silver composition"
+            src="/images/blog/ai-agent-incident-response-business-professionals.png"
+            alt="AI Agent Incident Response: What Business Professionals Must Learn Before Digital Coworkers Go Wrong"
             className="w-full rounded-xl shadow-md border border-gray-100 mb-8"
             loading="eager"
             width={1672}

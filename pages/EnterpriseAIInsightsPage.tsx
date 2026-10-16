@@ -13,8 +13,8 @@ const EnterpriseAIInsightsPage: React.FC = () => {
         description="Real-world insights on how enterprises deploy AI at scale, with strategies and lessons from agentic AI implementation."
         canonical="/blog/enterprise-ai-insights"
         ogType="article"
-        ogImage="https://academy.nexiuslabs.com/images/blog/approved/client-results-da0a09cac6d5.webp"
-        ogImageAlt="Traceable outcomes, represented in a cinematic graphite and silver composition"
+        ogImage="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80"
+        ogImageAlt="Beyond the Hype: 5 Things We Just Learned About How Enterprises Really Use AI"
         ogImageWidth={1672}
         ogImageHeight={941}
       />
@@ -31,7 +31,7 @@ const EnterpriseAIInsightsPage: React.FC = () => {
           </h1>
 
           <ArticleMeta articleSlug="enterprise-ai-insights" readTime="8 min read" />
-          <img src="/images/blog/approved/client-results-da0a09cac6d5.webp" alt="Traceable outcomes, represented in a cinematic graphite and silver composition" width={1672} height={941} className="w-full h-auto rounded-xl mb-8" loading="eager" decoding="async" />
+          <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80" alt="Beyond the Hype: 5 Things We Just Learned About How Enterprises Really Use AI" width={1672} height={941} className="w-full h-auto rounded-xl mb-8" loading="eager" decoding="async" />
 
           <h2 className="text-2xl font-bold text-[#1a1a1a] mt-10 mb-5 border-l-4 border-[#007bff] pl-4">
             Introduction

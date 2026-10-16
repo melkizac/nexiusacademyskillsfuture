@@ -13,8 +13,8 @@ const SMEsNoCodeAIPage: React.FC = () => {
         description="See how Singapore SMEs use no-code AI automation to cut costs, scale operations, and compete with larger firms."
         canonical="/blog/smes-no-code-ai-automation-singapore"
         ogType="article"
-        ogImage="https://academy.nexiuslabs.com/images/blog/approved/automation-7110f21b7398.webp"
-        ogImageAlt="Connected business work moving through stages, represented in a cinematic graphite and silver composition"
+        ogImage="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=800&q=80"
+        ogImageAlt="How SMEs in Singapore Are Using No-Code AI Automation to Scale"
         ogImageWidth={1672}
         ogImageHeight={941}
       />
@@ -31,7 +31,7 @@ const SMEsNoCodeAIPage: React.FC = () => {
           </h1>
 
           <ArticleMeta articleSlug="smes-no-code-ai-automation-singapore" readTime="9 min read" />
-          <img src="/images/blog/approved/automation-7110f21b7398.webp" alt="Connected business work moving through stages, represented in a cinematic graphite and silver composition" width={1672} height={941} className="w-full h-auto rounded-xl mb-8" loading="eager" decoding="async" />
+          <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=800&q=80" alt="How SMEs in Singapore Are Using No-Code AI Automation to Scale" width={1672} height={941} className="w-full h-auto rounded-xl mb-8" loading="eager" decoding="async" />
 
           <h2 className="text-3xl font-bold text-[#1a1a1a] mt-10 mb-5 border-l-4 border-[#007bff] pl-4">
             The SME Automation Gap — And How AI Is Closing It

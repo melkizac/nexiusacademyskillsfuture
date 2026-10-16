@@ -51,8 +51,8 @@ const BestAICoursesPage: React.FC = () => {
             acceptedAnswer: { '@type': 'Answer', text: faq.answer },
           })),
         }}
-        ogImage="https://academy.nexiuslabs.com/images/blog/approved/career-learning-dde6e55e0163.webp"
-        ogImageAlt="Human learning and career adaptability, represented in a cinematic graphite and silver composition"
+        ogImage="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=800&q=80"
+        ogImageAlt="Best AI Course Singapore 2026: SkillsFuture Comparison Guide"
         ogImageWidth={1672}
         ogImageHeight={941}
       />
@@ -69,7 +69,7 @@ const BestAICoursesPage: React.FC = () => {
           </h1>
 
           <ArticleMeta articleSlug="best-ai-courses-singapore-2026" readTime="10 min read" modifiedDateIso="2026-07-26" modifiedDateDisplay="26 Jul 2026" />
-          <img src="/images/blog/approved/career-learning-dde6e55e0163.webp" alt="Human learning and career adaptability, represented in a cinematic graphite and silver composition" width={1672} height={941} className="w-full h-auto rounded-xl mb-8" loading="eager" decoding="async" />
+          <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=800&q=80" alt="Best AI Course Singapore 2026: SkillsFuture Comparison Guide" width={1672} height={941} className="w-full h-auto rounded-xl mb-8" loading="eager" decoding="async" />
 
           <aside className="my-8 rounded-lg border border-blue-200 bg-blue-50 p-6 text-[#333]">
             <h2 className="mb-2 text-xl font-bold text-[#1a1a1a]">How this guide was prepared</h2>

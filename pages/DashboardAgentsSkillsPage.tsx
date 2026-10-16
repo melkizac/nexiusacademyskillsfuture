@@ -15,8 +15,8 @@ const DashboardAgentsSkillsPage: React.FC = () => {
         description="Google Cloud's Looker agents show business intelligence moving from static dashboards to conversational decision workflows. Learn the skills professionals need next."
         canonical={`/blog/${ARTICLE_SLUG}`}
         ogType="article"
-        ogImage="https://academy.nexiuslabs.com/images/blog/approved/article-dashboard-agents-smes-decision-workflows-b47ba4c7f932.webp"
-        ogImageAlt="Analytics becoming a decision workflow, represented in a cinematic graphite and silver composition"
+        ogImage="https://academy.nexiuslabs.com/images/blog/dashboard-agents-decision-workflows.png"
+        ogImageAlt="Dashboard Agents: What Business Professionals Must Learn Before AI Starts Explaining the Numbers"
         ogImageWidth={1672}
         ogImageHeight={941}
       />
@@ -35,8 +35,8 @@ const DashboardAgentsSkillsPage: React.FC = () => {
           <ArticleMeta articleSlug={ARTICLE_SLUG} readTime="8 min read" />
 
           <img
-            src="/images/blog/approved/article-dashboard-agents-smes-decision-workflows-b47ba4c7f932.webp"
-            alt="Analytics becoming a decision workflow, represented in a cinematic graphite and silver composition"
+            src="/images/blog/dashboard-agents-decision-workflows.png"
+            alt="Dashboard Agents: What Business Professionals Must Learn Before AI Starts Explaining the Numbers"
             className="w-full rounded-xl shadow-md border border-gray-100 mb-8"
             loading="eager"
             width={1672}

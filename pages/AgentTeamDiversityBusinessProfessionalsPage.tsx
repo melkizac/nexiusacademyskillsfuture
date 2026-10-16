@@ -15,8 +15,8 @@ const AgentTeamDiversityBusinessProfessionalsPage: React.FC = () => {
         description="More AI agents can repeat the same blind spot. Learn evidence-lane design, dissent roles, integration, testing, and human judgment for reliable agent teams."
         canonical={`/blog/${ARTICLE_SLUG}`}
         ogType="article"
-        ogImage="https://academy.nexiuslabs.com/images/blog/approved/article-agent-team-diversity-correlated-blind-spots-sme-f3e2462a4f65.webp"
-        ogImageAlt="Independent evidence and designed dissent, represented in a cinematic graphite and silver composition"
+        ogImage="https://academy.nexiuslabs.com/images/blog/agent-team-diversity-business-professionals.png"
+        ogImageAlt="AI Agent Teams: What Business Professionals Must Learn About Designed Dissent"
         ogImageWidth={1672}
         ogImageHeight={941}
       />
@@ -33,8 +33,8 @@ const AgentTeamDiversityBusinessProfessionalsPage: React.FC = () => {
           <ArticleMeta articleSlug={ARTICLE_SLUG} readTime="9 min read" />
 
           <img
-            src="/images/blog/approved/article-agent-team-diversity-correlated-blind-spots-sme-f3e2462a4f65.webp"
-            alt="Independent evidence and designed dissent, represented in a cinematic graphite and silver composition"
+            src="/images/blog/agent-team-diversity-business-professionals.png"
+            alt="AI Agent Teams: What Business Professionals Must Learn About Designed Dissent"
             className="w-full rounded-xl shadow-md border border-gray-100 mb-8"
             loading="eager"
             width={1672}

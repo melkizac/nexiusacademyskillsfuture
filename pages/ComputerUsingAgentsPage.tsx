@@ -15,8 +15,8 @@ const ComputerUsingAgentsPage: React.FC = () => {
         description="Learn what computer-using agents are, why they matter for non-technical teams, and the practical skills needed to supervise AI workflows safely."
         canonical={`/blog/${ARTICLE_SLUG}`}
         ogType="article"
-        ogImage="https://academy.nexiuslabs.com/images/blog/approved/article-agentic-ai-execution-layer-smes-operating-control-f19d74b5b5a1.webp"
-        ogImageAlt="Agents as the business execution layer, represented in a cinematic graphite and silver composition"
+        ogImage="https://academy.nexiuslabs.com/images/blog/computer-using-agents.png"
+        ogImageAlt="Computer-Using Agents: What Business Professionals Need to Learn Before They Automate"
         ogImageWidth={1672}
         ogImageHeight={941}
       />
@@ -35,8 +35,8 @@ const ComputerUsingAgentsPage: React.FC = () => {
           <ArticleMeta articleSlug={ARTICLE_SLUG} readTime="8 min read" />
 
           <img
-            src="/images/blog/approved/article-agentic-ai-execution-layer-smes-operating-control-f19d74b5b5a1.webp"
-            alt="Agents as the business execution layer, represented in a cinematic graphite and silver composition"
+            src="/images/blog/computer-using-agents.png"
+            alt="Computer-Using Agents: What Business Professionals Need to Learn Before They Automate"
             className="w-full rounded-xl shadow-md border border-gray-100 mb-8"
             loading="eager"
             width={1672}

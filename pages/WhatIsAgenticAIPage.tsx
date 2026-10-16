@@ -14,8 +14,8 @@ const WhatIsAgenticAIPage: React.FC = () => {
         description="Learn what agentic AI is, how it differs from generative AI, and why Singapore business professionals need to understand the shift."
         canonical="/blog/what-is-agentic-ai-guide"
         ogType="article"
-        ogImage="https://academy.nexiuslabs.com/images/blog/approved/article-the-rise-of-ai-agents-and-their-impact-on-business-automation-f88529f92ded.webp"
-        ogImageAlt="A growing network of autonomous business work, represented in a cinematic graphite and silver composition"
+        ogImage="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=800&q=80"
+        ogImageAlt="What Is Agentic AI? A Complete Guide for Business Professionals"
         ogImageWidth={1672}
         ogImageHeight={941}
       />
@@ -32,7 +32,7 @@ const WhatIsAgenticAIPage: React.FC = () => {
           </h1>
 
           <ArticleMeta articleSlug="what-is-agentic-ai-guide" readTime="8 min read" />
-          <img src="/images/blog/approved/article-the-rise-of-ai-agents-and-their-impact-on-business-automation-f88529f92ded.webp" alt="A growing network of autonomous business work, represented in a cinematic graphite and silver composition" width={1672} height={941} className="w-full h-auto rounded-xl mb-8" loading="eager" decoding="async" />
+          <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=800&q=80" alt="What Is Agentic AI? A Complete Guide for Business Professionals" width={1672} height={941} className="w-full h-auto rounded-xl mb-8" loading="eager" decoding="async" />
 
           <h2 className="text-3xl font-bold text-[#1a1a1a] mt-10 mb-5 border-l-4 border-[#007bff] pl-4">
             The Short Answer: AI That Acts, Not Just Answers
