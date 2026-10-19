@@ -1,24 +1,38 @@
-# Workshop promotion expiry
+# Automatic session promotion expiry
 
-Before promoting any dated workshop from the homepage, add its verified route,
-Singapore registration cutoff, recognisable promotion text/image names and fact
-authority to `public/workshop-promotions.json`. Never guess a missing date. Use
-the actual registration closing instant; it must not be later than event end.
+Every new dated session promotion requires a verified `endsAt` timestamp in
+`public/workshop-promotions.json`, with an explicit Singapore `+08:00` offset.
+Keep `registrationClosesAt` separate, no later than `endsAt`. Missing or invalid
+end times stop the build; never guess them. Keep ended entries in the registry.
 
-`npm run build` checks the rendered homepage and expired event pages. It rejects
-unregistered homepage workshop links, expired promotions, open forms, registration
-buttons and available structured offers. Keep expired entries in the registry so
-an old promotion cannot be reintroduced silently. A historical event page may
-remain with a clear ended/registration-closed notice.
+Wrap the complete promotional card, banner or invitation using the event ID:
 
-The existing Nexius Dev Academy Course Website Lifecycle job also runs
-`node scripts/check-workshop-expiry.mjs --live` at 08:00, 12:00 and 16:00 Singapore
-time even if no cohort action is due. It reads the public pages, not only the
-campaign packet or previous completion ledger. A failed audit requires Dev to
-repair the specific promotion through the existing guarded release, or report
-the concrete blocker. A job that merely runs successfully is insufficient.
+```tsx
+<SessionPromotion eventId="verified-session-id">
+  <YourSessionPromotion />
+</SessionPromotion>
+```
 
-After an event cutoff, the next scheduled audit may be up to 16 hours later.
-This is periodic detection and guarded removal, not an instantaneous runtime
-switch. Advance closure releases should be planned when an exact cutoff matters.
-Do not add a second scheduler or change enrolment, CRM or outreach state.
+Import `SessionPromotion` from `components/sessions/SessionPromotion.tsx`.
+It reads the end time automatically from the registry. Do not nest wrappers.
+The rendered homepage build check rejects session links without this boundary
+or with a deadline that disagrees with the verified registry.
+
+The Netlify edge handler removes expired boundaries from HTML on each request,
+even if the underlying static asset was built and cached before the deadline.
+It prevents caching that could retain a promotion beyond its cutoff. Assets,
+API requests, POSTs and non-HTML responses are left alone. On an already-open
+page, the React timer removes the promotion at its end time and rechecks on
+visibility/focus/page restoration. A suspended browser applies the cutoff when
+it resumes; browser timers cannot run while the device is suspended.
+
+Expiry needs no model run, scheduler or redeployment. The existing Dev job at
+08:00, 12:00 and 16:00 Singapore time remains a live verification and archival
+backstop. Its live check also verifies that the server expiry handler is active.
+The build and audit still reject expired promotions and open expired session
+registration. Historical event pages may remain explicitly ended and closed.
+
+Run `npm run test:functions`, `npm run build` and the guarded production release.
+After release run `node scripts/check-workshop-expiry.mjs --live`. Do not delete
+old registry records or bypass the guard to make a release pass. No additional
+scheduler, CRM/enrolment change or outreach is part of this mechanism.

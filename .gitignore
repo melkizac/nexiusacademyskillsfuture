@@ -28,3 +28,4 @@ dist-ssr
 
 # Supabase CLI temp state
 supabase/.temp/
+/lib/workshop-promotions.generated.json

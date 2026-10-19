@@ -5,8 +5,12 @@
       "id": "first-ai-agent-20261017",
       "path": "/workshops/build-your-first-ai-agent",
       "registrationClosesAt": "2026-10-17T12:00:00+08:00",
-      "promotionMarkers": ["Build your first AI agent", "first-ai-agent-20261017"],
-      "authority": "Owner supplied event date and end time; owner requested removal and recurrence prevention on 19 October 2026"
+      "promotionMarkers": [
+        "Build your first AI agent",
+        "first-ai-agent-20261017"
+      ],
+      "authority": "Owner supplied event date and end time; owner requested removal and recurrence prevention on 19 October 2026",
+      "endsAt": "2026-10-17T12:00:00+08:00"
     }
   ]
 }

@@ -1,6 +1,8 @@
 import { readFile } from 'node:fs/promises';
 import { pathToFileURL } from 'node:url';
 
+import { promotionDeadline } from '../lib/session-expiry.mjs';
+
 const ORIGIN = 'https://academy.nexiuslabs.com';
 const normalize = (path) => path.replace(/\/$/, '') || '/';
 const body = (html) => (html.match(/<main\b[^>]*>([\s\S]*?)<\/main>/i)?.[1] || html)
@@ -18,22 +20,44 @@ export function validateEvents(manifest) {
         || event.promotionMarkers.some(marker => typeof marker !== 'string' || !marker.trim())) {
       throw new Error(`Missing or invalid verified expiry for workshop ${event.id || event.path || '(unknown)'}`);
     }
+    promotionDeadline(event.endsAt);
+    if (Date.parse(event.registrationClosesAt) > Date.parse(event.endsAt)) throw new Error(`Registration closes after session ends: ${event.id}`);
     paths.add(event.path);
   }
   return manifest.events;
 }
 
-export const isExpired = (event, now) => now >= Date.parse(event.registrationClosesAt);
+export const isExpired = (event, now) => now >= Date.parse(event.endsAt);
 
 export function auditHome(html, events, now) {
   const errors = [];
   const content = body(html);
+  const wrappers = [...content.matchAll(/<session-promotion\b([^>]*)>([\s\S]*?)<\/session-promotion\s*>/gi)];
+  for (const wrapper of wrappers) {
+    if (/<session-promotion\b/i.test(wrapper[2])) errors.push('Nested session expiry wrappers are not supported');
+    const id = wrapper[1].match(/\bdata-session-id=["']([^"']+)["']/i)?.[1];
+    const end = wrapper[1].match(/\bdata-expires-at=["']([^"']+)["']/i)?.[1];
+    const event = events.find(item => item.id === id);
+    if (!event || end !== event.endsAt) errors.push('Session promotion boundary has an unknown ID or unverified end time');
+  }
   for (const match of content.matchAll(/\bhref=["']([^"']+)["']/gi)) {
     const url = new URL(match[1].replace(/&amp;/g, '&'), ORIGIN);
     if (url.origin !== ORIGIN || !url.pathname.startsWith('/workshops/')) continue;
     const event = events.find(item => item.path === normalize(url.pathname));
     if (!event) errors.push(`Homepage workshop ${url.pathname} has no verified expiry in public/workshop-promotions.json`);
     else if (isExpired(event, now)) errors.push(`Homepage still links to expired workshop ${event.id}`);
+    else {
+      const wrapper = wrappers.find(item => match.index >= item.index && match.index < item.index + item[0].length);
+      const id = wrapper?.[1].match(/\bdata-session-id=["']([^"']+)["']/i)?.[1];
+      const end = wrapper?.[1].match(/\bdata-expires-at=["']([^"']+)["']/i)?.[1];
+      if (id !== event.id || end !== event.endsAt) errors.push(`Homepage promotion ${event.id} must use SessionPromotion with its verified end time`);
+    }
+  }
+  const outsideBoundaries = content.replace(/<session-promotion\b[^>]*>[\s\S]*?<\/session-promotion\s*>/gi, '');
+  for (const event of events.filter(item => !isExpired(item, now))) {
+    if (event.promotionMarkers.some(marker => outsideBoundaries.toLowerCase().includes(marker.toLowerCase()))) {
+      errors.push(`Homepage promotion ${event.id} appears outside its automatic expiry boundary`);
+    }
   }
   for (const event of events.filter(item => isExpired(item, now))) {
     if (event.promotionMarkers.some(marker => content.toLowerCase().includes(marker.toLowerCase()))) {
@@ -64,6 +88,7 @@ export async function checkExpiry({ live = false, root = new URL('../', import.m
     if (!live) return readFile(new URL(`dist/${route === '/' ? '' : route.slice(1) + '/'}index.html`, root), 'utf8');
     const response = await fetch(`${ORIGIN}${route === '/' ? '/' : route + '/'}`, { signal: AbortSignal.timeout(30000), headers: { 'cache-control': 'no-cache' } });
     if (!response.ok) throw new Error(`Public expiry check ${route}: HTTP ${response.status}`);
+    if (route === '/' && response.headers.get('x-session-promotion-expiry') !== 'end-time-v1') throw new Error('Public server is missing automatic session expiry');
     return response.text();
   };
   const manifest = JSON.parse(await readFile(new URL('public/workshop-promotions.json', root), 'utf8'));
