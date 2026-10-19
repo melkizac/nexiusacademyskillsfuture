@@ -5,10 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build && node scripts/postbuild-seo.mjs && node scripts/prerender-routes.mjs && node scripts/write-deploy-metadata.mjs",
+    "build": "tsc && vite build && node scripts/postbuild-seo.mjs && node scripts/prerender-routes.mjs && node scripts/write-deploy-metadata.mjs && node scripts/check-workshop-expiry.mjs",
     "preview": "vite preview",
     "start:functions": "node netlify/runtime/server.mjs",
-    "test:functions": "node --test tests/functions/*.test.mjs"
+    "test:functions": "node --test tests/functions/*.test.mjs",
+    "check:workshop-expiry": "node scripts/check-workshop-expiry.mjs --live"
   },
   "dependencies": {
     "@google/generative-ai": "^0.21.0",
