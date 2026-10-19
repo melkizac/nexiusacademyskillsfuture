@@ -34,6 +34,7 @@ import AgentRuntimeAuthorizationBusinessProfessionalsPage from './pages/AgentRun
 import AgentIncidentResponseBusinessProfessionalsPage from './pages/AgentIncidentResponseBusinessProfessionalsPage';
 import AISupervisionSkillsBusinessProfessionalsPage from './pages/AISupervisionSkillsBusinessProfessionalsPage';
 import AIAgentAcceptanceTestingBusinessProfessionalsPage from './pages/AIAgentAcceptanceTestingBusinessProfessionalsPage';
+import AIAgentLifecycleManagementBusinessProfessionalsPage from './pages/AIAgentLifecycleManagementBusinessProfessionalsPage';
 import AboutPage from './pages/AboutPage';
 import AdminPage from './pages/AdminPage';
 import SkillsFutureFundingGuidePage from './pages/SkillsFutureFundingGuidePage';
@@ -175,6 +176,7 @@ export const AppShell: React.FC = () => {
         <Route path="/blog/ai-agent-incident-response-business-professionals" element={<AgentIncidentResponseBusinessProfessionalsPage />} />
         <Route path="/blog/ai-supervision-skills-business-professionals" element={<AISupervisionSkillsBusinessProfessionalsPage />} />
         <Route path="/blog/ai-agent-acceptance-testing-business-professionals" element={<AIAgentAcceptanceTestingBusinessProfessionalsPage />} />
+        <Route path="/blog/ai-agent-lifecycle-management-business-professionals" element={<AIAgentLifecycleManagementBusinessProfessionalsPage />} />
       </Routes>
       {readingRoute && <Footer />}
       </div>

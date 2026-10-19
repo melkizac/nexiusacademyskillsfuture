@@ -41,17 +41,6 @@ export const REVIEWS: Review[] = [
 export const SCHEDULES: ScheduleItem[] = [
   {
     type: 'Weekday',
-    dates: '09 Oct 2026 & 16 Oct 2026',
-    time: '9:00am - 6:00pm',
-    format: 'In-Person',
-    venue: 'Singapore Institute of Management, 461 Clementi Road, Singapore 599491',
-    month: 'Oct 2026',
-    registrationCloses: '25 Sep 2026',
-    registrationClosed: true,
-    cohortCode: '2026-10-09',
-  },
-  {
-    type: 'Weekday',
     dates: '06 Nov 2026 & 13 Nov 2026',
     time: '9:00am - 5:00pm',
     format: 'In-Person',
@@ -197,6 +186,19 @@ export const WEBSITE_IMAGES = {
 };
 
 export const BLOG_POSTS: BlogPost[] = [
+  {
+    id: 30,
+    slug: 'ai-agent-lifecycle-management-business-professionals',
+    title: 'AI Agent Lifecycle Management: What Business Professionals Must Learn Before Agents Multiply',
+    date: '19 Oct 2026',
+    views: 0,
+    image: '/images/blog/ai-agent-lifecycle-management-business-professionals.png',
+    imageAlt: 'Business professionals learning to manage an AI agent from onboarding through supervised work and retirement',
+    excerpt: 'Building an agent is only the start. Learn to define ownership, authority, evidence, reviews, kill switches, and retirement before digital coworkers multiply.',
+    category: 'Beginner Guides',
+    bestFor: 'Business professionals, SME owners, operations managers, risk teams, L&D teams',
+    featured: true,
+  },
   {
     id: 29,
     slug: 'ai-agent-acceptance-testing-business-professionals',

@@ -3,6 +3,7 @@ import { ArrowRight, CalendarDays, Check, Download, ShieldCheck, X } from "lucid
 import Navbar from "../components/home/Navbar";
 import Footer from "../components/home/Footer";
 import SEO from "../components/SEO";
+import { SCHEDULES } from "../constants";
 import WorkplaceGapTest from "../components/career/WorkplaceGapTest";
 import { trackEvent } from "../services/analytics";
 import { submitLeadCapture } from "../services/leadCaptureService";
@@ -285,22 +286,19 @@ const AICareerFairPage: React.FC = () => {
               governed AI-assisted workflows with human review built in.
             </p>
             <div className="mt-8 grid gap-6">
-              {[
-                ["October cohort", "9 & 16 October 2026", "9:00am–6:00pm"],
-              ].map((cohort) => (
+              {SCHEDULES.filter((cohort) => !cohort.registrationClosed && !cohort.interestOnly).map((cohort) => (
                 <article
                   className="rounded-2xl border border-purple-100 p-6"
-                  key={cohort[0]}
+                  key={cohort.cohortCode}
                 >
                   <h3 className="text-xl font-black text-primary">
-                    Agentic AI Foundations — {cohort[0]}
+                    Agentic AI Foundations — {cohort.month}
                   </h3>
                   <p className="mt-3 font-semibold">
-                    {cohort[1]} · {cohort[2]}
+                    {cohort.dates} · {cohort.time}
                   </p>
                   <p className="mt-2 text-gray-600">
-                    In person · Singapore Institute of Management, 461 Clementi
-                    Road
+                    In person · {cohort.venue}
                   </p>
                   <p className="mt-2 text-sm text-gray-500">
                     SkillsFuture-eligible. Final payable amount and live seat
