@@ -187,6 +187,19 @@ export const WEBSITE_IMAGES = {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    id: 30,
+    slug: 'ai-agent-lifecycle-management-business-professionals',
+    title: 'AI Agent Lifecycle Management: What Business Professionals Must Learn Before Agents Multiply',
+    date: '19 Oct 2026',
+    views: 0,
+    image: '/images/blog/ai-agent-lifecycle-management-business-professionals.png',
+    imageAlt: 'Business professionals learning to manage an AI agent from onboarding through supervised work and retirement',
+    excerpt: 'Building an agent is only the start. Learn to define ownership, authority, evidence, reviews, kill switches, and retirement before digital coworkers multiply.',
+    category: 'Beginner Guides',
+    bestFor: 'Business professionals, SME owners, operations managers, risk teams, L&D teams',
+    featured: true,
+  },
+  {
     id: 29,
     slug: 'ai-agent-acceptance-testing-business-professionals',
     title: 'AI Agent Acceptance Testing: What Business Professionals Must Learn Before They Automate',

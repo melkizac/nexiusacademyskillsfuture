@@ -1427,6 +1427,22 @@ const routes = [
     articleDate: '2026-10-12',
   },
   {
+    path: '/blog/ai-agent-lifecycle-management-business-professionals',
+    priority: '0.8',
+    changefreq: 'monthly',
+    includeInSitemap: true,
+    title: 'AI Agent Lifecycle Management Skills | Nexius Academy',
+    description:
+      'Learn how business professionals can request, approve, supervise, review, and retire AI agents with clear ownership, permissions, evidence, and accountability.',
+    ogType: 'article',
+    ogImage: 'https://academy.nexiuslabs.com/images/blog/ai-agent-lifecycle-management-business-professionals.png',
+    ogImageAlt: 'Business professionals learning to manage an AI agent from onboarding through supervised work and retirement',
+    ogImageWidth: 1672,
+    ogImageHeight: 941,
+    schemas: [],
+    articleDate: '2026-10-19',
+  },
+  {
     path: '/admin',
     priority: '0.1',
     changefreq: 'monthly',
