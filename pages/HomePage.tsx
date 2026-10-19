@@ -3,7 +3,6 @@ import { useLocation } from 'react-router-dom';
 import SEO from '../components/SEO';
 import Navbar from '../components/home/Navbar';
 import Hero from '../components/home/PreviewHero';
-import CoursePreviewCTA from '../components/home/CoursePreviewCTA';
 import WhyDifferent from '../components/home/WhyDifferent';
 import About from '../components/home/PreviewAbout';
 import Categories from '../components/home/Categories';
@@ -56,7 +55,6 @@ const HomePage: React.FC = () => {
         </section>
 
         <StatsStrip />
-        <CoursePreviewCTA />
         <BottomSection />
       </main>
       <Footer />
