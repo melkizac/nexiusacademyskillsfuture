@@ -21,8 +21,8 @@ const AVAILABLE_COURSES: Course[] = [
   },
   {
     id: 2,
-    title: 'Advanced Agentic AI',
-    category: 'Advanced',
+    title: 'Agentic AI-Driven Business Innovation for Productivity',
+    category: '3-Day Course',
     price: 0,
     rating: 5.0,
     students: 0,
@@ -41,7 +41,7 @@ const CourseList: React.FC = () => {
         <div className="text-center mb-10">
           <h2 className="text-3xl font-bold text-primary mb-3">Our Current Courses</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Start with Foundation to build practical no-code workflows. Choose Advanced to develop AI-driven business innovation and productivity initiatives.
+            The 2-day Foundation course covers the basics and practical no-code workflows. The accessible 3-day course is for anyone who wants more hands-on time and depth, with no coding required.
           </p>
         </div>
 

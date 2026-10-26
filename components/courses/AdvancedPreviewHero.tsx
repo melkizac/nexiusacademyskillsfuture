@@ -4,11 +4,11 @@ import { openLeadModal } from '../../services/leadModal';
 export default function AdvancedPreviewHero() {
   const next = ADVANCED_COURSE_SCHEDULES.find(s => !s.registrationClosed);
   return <section className="academy-advanced-hero"><div className="academy-container">
-    <div className="academy-course-breadcrumb"><a href="/#courses">Courses</a><span aria-hidden="true">/</span><span>Advanced Agentic AI</span></div>
+    <div className="academy-course-breadcrumb"><a href="/#courses">Courses</a><span aria-hidden="true">/</span><span>Agentic AI-Driven Business Innovation for Productivity</span></div>
     <div className="academy-advanced-layout"><div className="academy-advanced-intro">
       <h1>Agentic AI-Driven Business Innovation for Productivity</h1>
       <p className="academy-course-subtitle">Strategies for the Frontier Firm</p>
-      <p>A practical advanced Agentic AI course for anyone who wants to understand Frontier Firm strategy, agent orchestration, governance, and how human-agent work will operate in the future.</p>
+      <p>An accessible 3-day Agentic AI course for anyone who wants more hands-on time and depth beyond the basics. It covers Frontier Firm strategy, agent orchestration, and practical governance, with no coding required.</p>
       <div className="academy-hero-links"><a href="#curriculum" className="academy-text-link">Explore what you’ll learn <ArrowDown size={18} aria-hidden="true" /></a><a href="#schedule" className="academy-text-link">Check course schedule <ArrowDown size={18} aria-hidden="true" /></a></div>
       <div className="academy-collaboration"><span>In collaboration with</span><img src="/images/partners/temasek-poly-full-color-right-align.png" alt="Temasek Polytechnic collaboration logo" /></div>
     </div><aside className="academy-registration-dossier" aria-label="Course dates and registration">

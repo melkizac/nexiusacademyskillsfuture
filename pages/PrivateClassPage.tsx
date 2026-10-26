@@ -141,7 +141,7 @@ const faqs = [
   {
     question: 'How is pricing handled for a company class?',
     answer:
-      'Private three-day classes follow the Advanced Agentic AI pricing table shown on this page. Fees include 9% GST and depend on learner eligibility and funding approval.',
+      'Private three-day classes follow the Agentic AI-Driven Business Innovation for Productivity pricing table shown on this page. Fees include 9% GST and depend on learner eligibility and funding approval.',
   },
   {
     question: 'Can leaders and frontline staff attend together?',

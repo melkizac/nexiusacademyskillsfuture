@@ -112,13 +112,13 @@ const CoursePage: React.FC = () => {
         <Overview />
         <section className="bg-neutral">
               <div className="mx-auto max-w-5xl px-4 py-10 sm:px-6 lg:px-8" aria-labelledby="foundation-advanced-fit">
-                <h2 id="foundation-advanced-fit" className="mb-3 text-2xl font-heading font-bold text-primary">Should I choose Foundation or Advanced?</h2>
+                <h2 id="foundation-advanced-fit" className="mb-3 text-2xl font-heading font-bold text-primary">Should I choose the 2-day Foundation course or the 3-day Business Innovation course?</h2>
                 <div className="space-y-4 leading-relaxed text-gray-600">
-                  <p>Choose <strong>Agentic AI Foundations</strong> if you want guided practice turning everyday workplace tasks into AI-assisted workflows. The two-day course is designed for non-technical professionals and covers context, no-code workflows and reviewing AI output.</p>
-                  <p>Explore <strong>Advanced Agentic AI</strong> if your learning goal is to coordinate work across departments, define human accountability, and plan governance and organisational transformation. The three-day course focuses on orchestration and a transformation roadmap.</p>
+                  <p>Choose the 2-day <strong>Agentic AI Foundations</strong> course if you want the basics and practical no-code workflows for everyday workplace tasks. It is designed for non-technical professionals and covers context, core daily workflows, and reviewing AI output. No coding is required.</p>
+                  <p>Choose the 3-day <strong>Agentic AI-Driven Business Innovation for Productivity</strong> course if you want more hands-on time and depth. It is an accessible programme covering Frontier Firm strategy, multi-agent coordination, and governance. No coding or prior AI course is required.</p>
                   <p>For example, preparing a single team's weekly report and designing a service-request workflow spanning several departments raise different learning needs. These are illustrative ways to think about course fit, not promised course exercises or completed project outcomes.</p>
                   <p>
-                    Compare the <a href="#curriculum" className="font-bold text-accent underline hover:text-primary">Foundation curriculum</a> with the <Link to="/courses/advanced-agentic-ai/" className="font-bold text-accent underline hover:text-primary">Advanced course outline</Link>. Still unsure? Select <strong>Sign Me Up</strong> for help registering for the November class or ask us a general course question. Tell us your role and the workflow you want to improve. An enquiry does not confirm a place.
+                    Compare the <a href="#curriculum" className="font-bold text-accent underline hover:text-primary">Foundation curriculum</a> or <Link to="/courses/advanced-agentic-ai/" className="font-bold text-accent underline hover:text-primary">Explore Agentic AI-Driven Business Innovation for Productivity (3-Day Course)</Link>. Still unsure? Select <strong>Sign Me Up</strong> for help registering for the November class or ask us a general course question. Tell us your role and the workflow you want to improve. An enquiry does not confirm a place.
                   </p>
                 </div>
               </div>

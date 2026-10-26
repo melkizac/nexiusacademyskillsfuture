@@ -12,7 +12,7 @@ import { openLeadModal } from '../services/leadModal';
 import AIAnswerBlocks from '../components/courses/AIAnswerBlocks';
 
 const learningObjectives = [
-  'Understand advanced Agentic AI concepts using the Frontier Firm model and a structured 3-phase roadmap toward an Agentic Company.',
+  'Go deeper on Agentic AI using the Frontier Firm model and a structured 3-phase roadmap toward an Agentic Company.',
   'Map multi-agent orchestration across functions such as HR, Finance, Operations, Customer Support, and personal productivity workflows.',
   'Adopt the Agent Boss mindset, where humans supervise, direct, and improve teams of AI assistants for higher-value work.',
   'Design hybrid human-agent workflows with clear roles, accountability, handoffs, and performance expectations.',
@@ -48,7 +48,7 @@ const transformationModules = [
   },
   {
     title: 'Implementation Action Planning',
-    description: 'Translate advanced Agentic AI concepts into a practical action plan for adoption, sequencing, and operating discipline.',
+    description: 'Turn Frontier Firm and Agent Boss ideas into a practical action plan for adoption, sequencing, and operating discipline.',
     icon: ClipboardList,
   },
 ];
@@ -62,7 +62,7 @@ const transformationModules = [
 const faqs = [
   {
     question: 'Who should attend this course?',
-    answer: 'This programme is suitable for anyone who wants to learn advanced Agentic AI knowledge, including professionals, builders, managers, business owners, educators, consultants, and transformation teams.',
+    answer: 'This accessible 3-day programme is for anyone who wants more hands-on time and depth beyond the 2-day Foundation basics, including professionals, builders, managers, business owners, educators, consultants, and transformation teams. No coding or prior AI course is required.',
   },
   {
     question: 'What is the main outcome of the programme?',
@@ -70,7 +70,7 @@ const faqs = [
   },
   {
     question: 'Is this a technical builder programme?',
-    answer: 'No. The emphasis is on advanced Agentic AI concepts, workflow design, governance, orchestration, and practical implementation planning rather than coding.',
+    answer: 'No. No coding or prior AI course is required. The emphasis is on practical Agentic AI concepts, workflow design, governance, orchestration, and implementation planning.',
   },
   {
     question: 'What is the course duration and fee?',
@@ -86,8 +86,8 @@ const FrontierFirmCoursePage: React.FC = () => {
   return (
     <>
       <SEO
-        title="Agentic AI-Driven Innovation | Nexius Academy"
-        description="An advanced Agentic AI course for learners who want to understand Frontier Firm strategy, agent orchestration, AI governance, and practical implementation."
+        title="Agentic AI-Driven Business Innovation for Productivity | Nexius Academy"
+        description="An accessible 3-day Agentic AI course for anyone who wants more hands-on time and depth beyond the basics. It covers Frontier Firm strategy, agent orchestration, and practical governance, with no coding required."
         canonical="/courses/advanced-agentic-ai"
         ogType="course"
       />
@@ -102,7 +102,7 @@ const FrontierFirmCoursePage: React.FC = () => {
             <div className="grid gap-8 rounded-3xl border border-gray-100 bg-neutral p-8 shadow-sm lg:grid-cols-[0.9fr,1.1fr] lg:items-center">
               <div>
                 <div className="text-sm font-bold uppercase tracking-[0.16em] text-accent mb-3">Course Focus</div>
-                <h2 className="text-2xl lg:text-3xl font-bold text-primary mb-4">Master advanced Agentic AI transformation</h2>
+                <h2 className="text-2xl lg:text-3xl font-bold text-primary mb-4">Go deeper with 3 days of practical Agentic AI</h2>
                 <p className="text-gray-600 leading-relaxed">
                   Build the strategy, operating model, orchestration, and governance knowledge needed to move from scattered AI use cases to coordinated agentic execution.
                 </p>
@@ -130,18 +130,18 @@ const FrontierFirmCoursePage: React.FC = () => {
 
         <AIAnswerBlocks
           className="academy-summary py-16 bg-neutral"
-          title="Advanced Agentic AI course summary"
-          summary="A concise overview of the learner audience, advanced Agentic AI outcomes, and governance context for this course."
+          title="Agentic AI-Driven Business Innovation for Productivity"
+          summary="A concise overview of who this accessible 3-day course is for, the extra hands-on depth it covers, and how practical governance fits in."
           blocks={[
             {
               question: 'What is Agentic AI-Driven Business Innovation for Productivity?',
               answer:
-                'Agentic AI-Driven Business Innovation for Productivity is an advanced Agentic AI course for learners who want to move from basic AI tool use to coordinated agentic workflows. It covers Frontier Firm strategy, Agent Boss operating models, cross-functional agent orchestration, governance, risk, and implementation roadmapping.',
+                'Agentic AI-Driven Business Innovation for Productivity is an accessible 3-day Agentic AI course for anyone who wants more hands-on time and depth beyond the basics. It covers Frontier Firm strategy, Agent Boss operating models, multi-agent workflow orchestration, governance, risk, and implementation roadmapping. No coding or prior AI course is required.',
             },
             {
-              question: 'Who should attend this advanced Agentic AI course?',
+              question: 'Who should attend this 3-day course?',
               answer:
-                'The course is suitable for professionals, builders, managers, educators, consultants, business owners, and curious learners who want advanced Agentic AI knowledge. It is not a coding programme; it focuses on how people structure, supervise, and scale human-agent work across real workflows.',
+                'It is an accessible 3-day programme for anyone who wants more hands-on time and depth beyond the 2-day Foundation basics. Professionals, builders, managers, educators, consultants, business owners, and curious learners are welcome. No coding or prior AI course is required.',
             },
             {
               question: 'What business outcome does the course support?',
@@ -180,10 +180,10 @@ const FrontierFirmCoursePage: React.FC = () => {
               <div className="lg:col-span-7">
                 <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
                   <p>
-                    This programme is suitable for anyone who wants to learn advanced Agentic AI knowledge, including professionals, builders, managers, business owners, educators, consultants, and transformation teams.
+                    This accessible 3-day programme is for anyone who wants more hands-on time and depth beyond the 2-day Foundation basics, including professionals, builders, managers, business owners, educators, consultants, and transformation teams. No coding or prior AI course is required.
                   </p>
                   <p>
-                    The programme provides a structured framework for understanding and applying Agentic AI through the Frontier Firm concept. It equips participants with the capability to design advanced human-agent workflows, cross-functional agent orchestration, operating model redesign, and governance for responsible scale-up.
+                    The programme provides a structured framework for understanding and applying Agentic AI through the Frontier Firm concept. It helps participants design practical human-agent workflows, multi-agent workflow orchestration, operating model choices, and governance for responsible scale-up.
                   </p>
                   <p>
                     A key feature of the programme is the introduction of the Agent Boss concept, where people learn to supervise, direct, and govern agentic AI systems across functions. The programme adopts a practical and implementation-oriented approach to help participants transition from isolated AI use cases to coordinated, secure, and scalable agentic execution.
@@ -195,7 +195,7 @@ const FrontierFirmCoursePage: React.FC = () => {
                   <h3 className="text-2xl font-bold text-primary mb-6">Suitable for</h3>
                   <div className="space-y-5">
                     {[
-                      { icon: Briefcase, title: 'Professionals & Managers', desc: 'Wanting to understand advanced Agentic AI workflows and productivity models.' },
+                      { icon: Briefcase, title: 'Professionals & Managers', desc: 'Wanting more hands-on time with Agentic AI workflows and productivity models.' },
                       { icon: Building2, title: 'Builders & Consultants', desc: 'Designing agentic systems, operating models, and adoption roadmaps.' },
                       { icon: Users, title: 'Business Owners & Teams', desc: 'Exploring practical AI adoption, governance, and scale-up decisions.' },
                       { icon: ShieldCheck, title: 'Educators & Curious Learners', desc: 'Building deeper fluency in Frontier Firm, Agent Boss, and AI governance concepts.' },
@@ -264,7 +264,7 @@ const FrontierFirmCoursePage: React.FC = () => {
         <section className="py-20 bg-white">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="bg-primary rounded-3xl p-8 lg:p-12 text-white text-center shadow-2xl">
-              <h2 className="text-3xl lg:text-4xl font-heading font-bold mb-4">Ready to learn advanced Agentic AI?</h2>
+              <h2 className="text-3xl lg:text-4xl font-heading font-bold mb-4">Ready to go deeper with our 3-day Agentic AI course?</h2>
               <p className="text-blue-50/90 max-w-2xl mx-auto mb-8 leading-relaxed">
                 Apply now if you want programme details, intake timing, or an advisory conversation on whether this course fits your learning goals or team needs.
               </p>

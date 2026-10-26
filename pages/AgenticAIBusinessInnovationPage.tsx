@@ -1,7 +1,7 @@
 import AcademyBrand from '../components/AcademyBrand';
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Award, Building2, CheckCircle, ClipboardList, CreditCard, GitBranch, Layers, Lock, Receipt, ShieldCheck, Users, Wallet } from 'lucide-react';
+import { ArrowRight, Award, Building2, CheckCircle, ChevronDown, ClipboardList, CreditCard, GitBranch, Layers, Lock, Receipt, ShieldCheck, Users, Wallet } from 'lucide-react';
 import SEO from '../components/SEO';
 import Footer from '../components/home/Footer';
 import AIAnswerBlocks from '../components/courses/AIAnswerBlocks';
@@ -15,8 +15,11 @@ const stmsUrl = 'https://courses.myskillsfuture.gov.sg/courses/TGS-2026063558--A
 
 const attendItems = [
   'SME Owners and Founders',
-  'Business Managers and C-Suite Executives',
+  'Business Managers and Team Leaders',
+  'Everyday Professionals',
+  'Educators and Consultants',
   'Entrepreneurs and Intrapreneurs',
+  'Learners who want a deeper 3-day course',
 ];
 
 const learnItems = [
@@ -26,18 +29,18 @@ const learnItems = [
     icon: Building2,
   },
   {
-    title: 'Master Multi-Department Agent Orchestration',
-    text: 'Move beyond individual AI productivity to design and orchestrate complex AI agent systems operating across Human Resource, Finance, Operations, and other departments.',
+    title: 'Coordinate Multi-Department Agent Workflows',
+    text: 'Move beyond individual AI productivity and practise multi-agent workflow orchestration across Human Resource, Finance, Operations, and other departments.',
     icon: Layers,
   },
   {
-    title: 'Adopt the Agent Boss Paradigm Shift',
-    text: 'Facilitate the mindset change required for business leaders to manage a hybrid workforce, where every human employee becomes an Agent Boss managing a team of AI assistants.',
+    title: 'Adopt the Agent Boss Approach',
+    text: 'Practise the shift to a hybrid workforce, where people supervise, direct, and stay accountable for a team of AI assistants.',
     icon: Users,
   },
   {
-    title: 'Manage the New Hybrid Workforce',
-    text: 'Acquire the executive leadership skills required to evaluate, lead, and manage teams of human Agent Bosses at scale.',
+    title: 'Work with a Hybrid Human-Agent Team',
+    text: 'Build practical skills to guide, review, and support people who supervise AI assistants.',
     icon: GitBranch,
   },
   {
@@ -93,7 +96,7 @@ const frontierAcceptedPayments = ['SkillsFuture Credits (where applicable)', 'Cr
 const faqs = [
   {
     question: 'Who should attend this course?',
-    answer: 'This programme is suitable for anyone who wants to learn advanced Agentic AI knowledge, including professionals, builders, managers, business owners, educators, consultants, and transformation teams.',
+    answer: 'This accessible 3-day programme is for anyone who wants more hands-on time and depth beyond the 2-day Foundation basics, including professionals, builders, managers, business owners, educators, consultants, and transformation teams. No coding or prior AI course is required.',
   },
   {
     question: 'What is the main outcome of the programme?',
@@ -101,7 +104,7 @@ const faqs = [
   },
   {
     question: 'Is this a technical builder programme?',
-    answer: 'No. The emphasis is on advanced Agentic AI concepts, workflow design, governance, orchestration, and practical implementation planning rather than coding.',
+    answer: 'No. No coding or prior AI course is required. The emphasis is on practical Agentic AI concepts, workflow design, governance, orchestration, and implementation planning.',
   },
   {
     question: 'What is the course duration and fee?',
@@ -116,8 +119,8 @@ const faqs = [
 const AgenticAIBusinessInnovationPage: React.FC = () => (
   <>
     <SEO
-      title="Agentic AI Business Innovation Course | Nexius Academy"
-      description="Agentic AI-Driven Business Innovation for Productivity: Strategies for the Frontier Firm, including overview, audience, outcomes, certification, fees, and application guidance."
+      title="Agentic AI-Driven Business Innovation for Productivity | Nexius Academy"
+      description="An accessible 3-day course, Agentic AI-Driven Business Innovation for Productivity, for anyone who wants more hands-on time and depth. This summary covers audience, outcomes, certification, fees, and how to enquire. No coding or prior AI course is required."
       canonical="/courses/agentic-ai-business-innovation"
       ogType="course"
     />
@@ -128,6 +131,17 @@ const AgenticAIBusinessInnovationPage: React.FC = () => (
           <Link to="/" className="flex items-center" aria-label="Nexius Academy home">
             <AcademyBrand />
           </Link>
+          <div className="ml-auto flex items-center gap-6">
+          <details className="group relative">
+            <summary className="flex cursor-pointer list-none items-center gap-1 text-sm font-medium text-gray-700 [&::-webkit-details-marker]:hidden">
+              Courses
+              <ChevronDown size={16} aria-hidden="true" />
+            </summary>
+            <div className="absolute right-0 top-full z-50 mt-2 w-80 max-w-[calc(100vw-2rem)] rounded-lg border border-gray-200 bg-white p-2 text-sm shadow-lg">
+              <Link to="/courses/agentic-ai" className="block rounded px-3 py-2 font-semibold text-gray-700 hover:bg-gray-50">Agentic AI Foundations (2-Day)</Link>
+              <Link to="/courses/advanced-agentic-ai" aria-label="Agentic AI-Driven Business Innovation for Productivity" className="block rounded px-3 py-2 font-semibold text-gray-700 hover:bg-gray-50">Business Innovation (3-Day)</Link>
+            </div>
+          </details>
           <nav className="hidden items-center gap-6 text-sm font-medium text-gray-700 md:flex">
             <a href="#overview" className="hover:text-accent">Overview</a>
             <a href="#audience" className="hover:text-accent">Audience</a>
@@ -136,6 +150,7 @@ const AgenticAIBusinessInnovationPage: React.FC = () => (
             <a href="#schedule" className="hover:text-accent">Schedule</a>
             <a href="#contact" className="hover:text-accent">Contact</a>
           </nav>
+          </div>
           <div className="hidden items-center gap-2 lg:flex"> </div>
         </div>
       </header>
@@ -153,14 +168,14 @@ const AgenticAIBusinessInnovationPage: React.FC = () => (
           <div className="max-w-4xl">
             <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-sm font-semibold">
               <ShieldCheck size={16} className="text-accent" />
-              Advanced course
+              3-day course · No coding required
             </div>
             <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-accent">SkillsFuture Series</p>
             <h1 className="mb-6 font-heading text-4xl font-extrabold leading-tight lg:text-6xl">
               Agentic AI-Driven Business Innovation for Productivity: Strategies for the Frontier Firm
             </h1>
             <p className="mb-8 max-w-3xl text-lg leading-relaxed text-blue-50/90 lg:text-xl">
-              This page summarises the course overview, target audience, learning outcomes, certification requirement, fees, and enquiry path for learners evaluating advanced Agentic AI training.
+              This page summarises the course overview, target audience, learning outcomes, certification requirement, fees, and enquiry path for this accessible 3-day Agentic AI course. No coding or prior AI course is required.
             </p>
             <div className="flex flex-wrap gap-4">
               <button
@@ -210,24 +225,24 @@ const AgenticAIBusinessInnovationPage: React.FC = () => (
 
       <AIAnswerBlocks
         className="bg-neutral py-16"
-        title="Advanced Agentic AI course summary"
+        title="Agentic AI-Driven Business Innovation for Productivity"
         summary="A concise overview of the course positioning, intended learner audience, Frontier Firm transformation outcomes, and official source links."
         citationsPlacement="left"
         blocks={[
           {
             question: 'What is Agentic AI-Driven Business Innovation for Productivity?',
             answer:
-              'It is an executive course that addresses the productivity paradox and teaches business leaders how to restructure an organisation into an Agentic Company using the Frontier Firm concept and a proprietary 3-phase roadmap for company-wide transformation.',
+              'Agentic AI-Driven Business Innovation for Productivity is an accessible 3-day course for anyone who wants more hands-on time and depth beyond the 2-day Foundation basics. It uses the Frontier Firm concept and a practical 3-phase roadmap to show how people and AI agents can work together. No coding or prior AI course is required.',
           },
           {
-            question: 'Who should attend this advanced Agentic AI course?',
+            question: 'Who should attend this 3-day course?',
             answer:
-              'The course is suitable for SME owners and founders, business managers and C-suite executives, entrepreneurs, intrapreneurs, and professionals who want advanced Agentic AI knowledge for organisation-wide productivity.',
+              'It welcomes SME owners and founders, business managers, everyday professionals, educators, consultants, entrepreneurs, and intrapreneurs who want a deeper 3-day course. No coding or prior AI course is required.',
           },
           {
             question: 'What outcome does the course support?',
             answer:
-              'Participants are equipped to lead enterprise-wide AI adoption, orchestrate multi-department agent systems, manage human Agent Bosses at scale, establish enterprise-grade governance and security, and develop an executable Digital Innovation Transformation Roadmap.',
+              'Participants can apply Frontier Firm strategy, coordinate multi-agent workflows, practise the Agent Boss approach, set practical governance, and leave with a transformation roadmap they can adapt for their own work.',
           },
         ]}
         citations={[
@@ -245,13 +260,13 @@ const AgenticAIBusinessInnovationPage: React.FC = () => (
                 <h2 className="mb-6 font-heading text-3xl font-bold text-primary lg:text-4xl">Course positioning</h2>
                 <div className="prose prose-lg max-w-none text-gray-700">
                   <p>
-                    Many firms suffer from the “Productivity Paradox,” in which they invest more in technology but earn less per employee. While basic AI courses teach learners how to use tools for daily tasks, this executive course flips the script.
+                    Many firms invest more in technology without a matching gain in how work gets done. The 2-day Foundation course covers the basics and practical no-code workflows. This accessible 3-day course is for anyone who wants more hands-on time and depth.
                   </p>
                   <p>
-                    The course teaches business leaders how to fundamentally restructure their entire organization into an “Agentic Company”. Through the exclusive “Frontier Firm” concept, participants learn a proprietary 3-phase roadmap for company-wide organizational transformation.
+                    Participants explore the Frontier Firm concept and a practical 3-phase roadmap for organising people and AI agents to work together. No coding or prior AI course is required.
                   </p>
                   <p>
-                    Participants will build a strategic business model that adapts to the digital future and re-architects how the human workforce and AI systems operate together to dominate the market.
+                    You leave with a clearer operating model for how human teams and AI systems can share work, including where people stay accountable and how practical governance keeps that work safe.
                   </p>
                 </div>
               </div>
@@ -284,6 +299,9 @@ const AgenticAIBusinessInnovationPage: React.FC = () => (
             <div className="mb-12 max-w-3xl">
               <p className="mb-3 text-sm font-bold uppercase tracking-[0.18em] text-accent">Who Should Attend</p>
               <h2 className="font-heading text-3xl font-bold text-primary lg:text-4xl">Who should attend</h2>
+              <p className="mt-4 text-lg leading-relaxed text-gray-600">
+                Business owners and leaders are welcome, and so are everyday professionals, managers, educators, consultants, and anyone who wants a deeper 3-day course. No coding or prior AI course is required.
+              </p>
             </div>
             <div className="grid gap-6 md:grid-cols-3">
               {attendItems.map((item) => (
@@ -300,9 +318,9 @@ const AgenticAIBusinessInnovationPage: React.FC = () => (
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="mb-12 max-w-4xl">
               <p className="mb-3 text-sm font-bold uppercase tracking-[0.18em] text-accent">What You'll Learn</p>
-              <h2 className="mb-4 font-heading text-3xl font-bold text-primary lg:text-4xl">Enterprise-wide AI adoption outcomes</h2>
+              <h2 className="mb-4 font-heading text-3xl font-bold text-primary lg:text-4xl">What the 3-day course helps you practise</h2>
               <p className="text-lg leading-relaxed text-gray-600">
-                By the end of this intensive program, participants will be equipped to lead enterprise-wide AI adoption and turn productivity gaps into scalable growth opportunities.
+                By the end of this 3-day course, participants can apply Frontier Firm strategy, coordinate multi-agent workflows, and put practical governance around AI-assisted work. No coding is required.
               </p>
             </div>
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -322,7 +340,7 @@ const AgenticAIBusinessInnovationPage: React.FC = () => (
             <div className="mb-14 text-center">
               <h2 className="mb-4 font-heading text-3xl font-bold text-primary">Course Fees &amp; Funding</h2>
               <p className="mb-2 text-gray-600">
-                This is a <span className="font-bold text-primary">3-day advanced Agentic AI course</span> with a full course fee of{' '}
+                This is a <span className="font-bold text-primary">3-day Agentic AI course</span> with a full course fee of{' '}
                 <span className="font-bold text-primary">S$1,635.00 incl. GST</span>.
               </p>
               <p className="mx-auto mb-3 flex max-w-3xl items-center justify-center gap-2 text-sm font-semibold text-primary">
@@ -330,7 +348,7 @@ const AgenticAIBusinessInnovationPage: React.FC = () => (
                 Participants who meet at least 75% attendance and attempt the assessment will be awarded a Certificate of Completion.
               </p>
               <p className="font-mono text-xs text-gray-400">
-                Advanced course
+                3-day course
               </p>
             </div>
 
@@ -498,7 +516,7 @@ const AgenticAIBusinessInnovationPage: React.FC = () => (
               <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/10 px-4 py-2 text-sm font-semibold">
                 <Users size={16} className="text-accent" /> Agent Boss Programme
               </div>
-              <h2 className="mb-4 font-heading text-3xl font-bold lg:text-4xl">Ready to learn advanced Agentic AI?</h2>
+              <h2 className="mb-4 font-heading text-3xl font-bold lg:text-4xl">Ready to go deeper with our 3-day Agentic AI course?</h2>
               <p className="mx-auto mb-8 max-w-2xl leading-relaxed text-blue-50/90">
                 Apply now if you want programme details, intake timing, or an advisory conversation on whether this course fits your learning goals or team needs.
               </p>

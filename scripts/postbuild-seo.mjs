@@ -337,7 +337,7 @@ const frontierFaqs = [
   {
     question: 'Who should attend this course?',
     answer:
-      'This programme is suitable for anyone who wants to learn advanced Agentic AI knowledge, including professionals, builders, managers, business owners, educators, consultants, and transformation teams.',
+      'This accessible 3-day programme is for anyone who wants more hands-on time and depth beyond the 2-day Foundation basics, including professionals, builders, managers, business owners, educators, consultants, and transformation teams. No coding or prior AI course is required.',
   },
   {
     question: 'What is the main outcome of the programme?',
@@ -358,14 +358,14 @@ const frontierFaqs = [
 
 const agenticBusinessInnovationFaqs = [
   {
-    question: 'Who should attend this advanced Agentic AI course?',
+    question: 'Who should attend this 3-day course?',
     answer:
-      'The course is suitable for SME owners and founders, business managers and C-suite executives, entrepreneurs, intrapreneurs, and professionals who want advanced Agentic AI knowledge for organisation-wide productivity.',
+      'It welcomes SME owners and founders, business managers, everyday professionals, educators, consultants, entrepreneurs, and intrapreneurs who want a deeper 3-day course. No coding or prior AI course is required.',
   },
   {
     question: 'What does the course teach?',
     answer:
-      'The course teaches business leaders how to restructure an organization into an Agentic Company using the Frontier Firm concept, a 3-phase roadmap, multi-department agent orchestration, the Agent Boss paradigm, hybrid workforce management, governance, security, and transformation roadmapping.',
+      'The accessible 3-day course covers the Frontier Firm concept, a 3-phase roadmap, multi-agent workflow orchestration, the Agent Boss approach, practical governance, and a transformation roadmap participants can adapt. No coding or prior AI course is required.',
   },
   {
     question: 'What are the course fee amounts?',
@@ -798,19 +798,19 @@ const routes = [
     priority: '0.7',
     changefreq: 'monthly',
     includeInSitemap: true,
-    title: 'Agentic AI-Driven Innovation | Nexius Academy',
+    title: 'Agentic AI-Driven Business Innovation for Productivity | Nexius Academy',
     description:
-      'An advanced Agentic AI course for learners who want to understand Frontier Firm strategy, agent orchestration, AI governance, and practical implementation.',
+      'An accessible 3-day Agentic AI course for anyone who wants more hands-on time and depth beyond the basics. It covers Frontier Firm strategy, agent orchestration, and practical governance, with no coding required.',
     ogType: 'course',
     ogImage: HOME_IMAGE,
     schemas: [
       courseSchema({
-        name: 'Agentic AI-Driven Innovation for Productivity',
+        name: 'Agentic AI-Driven Business Innovation for Productivity',
         description:
-          'An advanced Agentic AI programme on Frontier Firm strategy, cross-functional orchestration, Agent Boss operating models, and AI governance.',
+          'An accessible 3-day Agentic AI programme on Frontier Firm strategy, cross-functional orchestration, Agent Boss operating models, and practical governance. No coding or prior AI course is required.',
         url: `${SITE_URL}/courses/advanced-agentic-ai/`,
         image: HOME_IMAGE,
-        audienceType: 'Professionals, builders, managers, business owners, educators, consultants, and advanced AI learners',
+        audienceType: 'Professionals, builders, managers, business owners, educators, consultants, and learners who want more hands-on time and depth',
         instructors: [melverickPerson, darrylPerson],
         offers: [
           {
@@ -868,19 +868,19 @@ const routes = [
     priority: '0.6',
     changefreq: 'monthly',
     includeInSitemap: true,
-    title: 'Agentic AI Business Innovation Course | Nexius Academy',
+    title: 'Agentic AI-Driven Business Innovation for Productivity | Nexius Academy',
     description:
-      'Agentic AI-Driven Business Innovation for Productivity: Strategies for the Frontier Firm, covering overview, audience, outcomes, certification, fees, and application guidance.',
+      'An accessible 3-day course, Agentic AI-Driven Business Innovation for Productivity, for anyone who wants more hands-on time and depth. This summary covers audience, outcomes, certification, fees, and how to enquire. No coding or prior AI course is required.',
     ogType: 'course',
     ogImage: HOME_IMAGE,
     schemas: [
       courseSchema({
-        name: 'Agentic AI-Driven Business Innovation for Productivity: Strategies for the Frontier Firm',
+        name: 'Agentic AI-Driven Business Innovation for Productivity',
         description:
-          'An advanced Agentic AI programme on the Frontier Firm concept, Agentic Company transformation, multi-department agent orchestration, Agent Boss operating models, governance, security, and transformation roadmapping.',
+          'An accessible 3-day Agentic AI programme on the Frontier Firm concept, multi-agent workflow orchestration, Agent Boss operating models, practical governance, and transformation roadmapping. No coding or prior AI course is required.',
         url: `${SITE_URL}/courses/agentic-ai-business-innovation`,
         image: HOME_IMAGE,
-        audienceType: 'SME owners and founders, business managers and C-suite executives, entrepreneurs, intrapreneurs, and advanced Agentic AI learners',
+        audienceType: 'SME owners and founders, business managers, everyday professionals, educators, consultants, entrepreneurs, intrapreneurs, and learners who want a deeper 3-day course',
         instructors: [melverickPerson, darrylPerson],
         offers: {
           '@type': 'Offer',
