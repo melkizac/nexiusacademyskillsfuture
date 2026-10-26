@@ -35,6 +35,7 @@ import AgentIncidentResponseBusinessProfessionalsPage from './pages/AgentInciden
 import AISupervisionSkillsBusinessProfessionalsPage from './pages/AISupervisionSkillsBusinessProfessionalsPage';
 import AIAgentAcceptanceTestingBusinessProfessionalsPage from './pages/AIAgentAcceptanceTestingBusinessProfessionalsPage';
 import AIAgentLifecycleManagementBusinessProfessionalsPage from './pages/AIAgentLifecycleManagementBusinessProfessionalsPage';
+import AIWorkforceInventoryBusinessProfessionalsPage from './pages/AIWorkforceInventoryBusinessProfessionalsPage';
 import AboutPage from './pages/AboutPage';
 import AdminPage from './pages/AdminPage';
 import SkillsFutureFundingGuidePage from './pages/SkillsFutureFundingGuidePage';
@@ -177,6 +178,7 @@ export const AppShell: React.FC = () => {
         <Route path="/blog/ai-supervision-skills-business-professionals" element={<AISupervisionSkillsBusinessProfessionalsPage />} />
         <Route path="/blog/ai-agent-acceptance-testing-business-professionals" element={<AIAgentAcceptanceTestingBusinessProfessionalsPage />} />
         <Route path="/blog/ai-agent-lifecycle-management-business-professionals" element={<AIAgentLifecycleManagementBusinessProfessionalsPage />} />
+        <Route path="/blog/ai-workforce-inventory-business-professionals" element={<AIWorkforceInventoryBusinessProfessionalsPage />} />
       </Routes>
       {readingRoute && <Footer />}
       </div>

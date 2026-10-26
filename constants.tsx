@@ -187,6 +187,19 @@ export const WEBSITE_IMAGES = {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    id: 31,
+    slug: 'ai-workforce-inventory-business-professionals',
+    title: 'AI Workforce Inventory: What Business Professionals Must Learn to Find and Govern Every Agent',
+    date: '26 Oct 2026',
+    views: 0,
+    image: '/images/blog/ai-workforce-inventory-business-professionals.png',
+    imageAlt: 'A human leader directing a coordinated digital workforce through a governed operating structure',
+    excerpt: 'As AI agents spread across tools and teams, learn to inventory every digital coworker, assign ownership, map authority, classify risk, and connect governance to action.',
+    category: 'Beginner Guides',
+    bestFor: 'Business professionals, SME owners, operations managers, risk teams, L&D teams',
+    featured: true,
+  },
+  {
     id: 30,
     slug: 'ai-agent-lifecycle-management-business-professionals',
     title: 'AI Agent Lifecycle Management: What Business Professionals Must Learn Before Agents Multiply',

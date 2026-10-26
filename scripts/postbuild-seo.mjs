@@ -1443,6 +1443,22 @@ const routes = [
     articleDate: '2026-10-19',
   },
   {
+    path: '/blog/ai-workforce-inventory-business-professionals',
+    priority: '0.8',
+    changefreq: 'monthly',
+    includeInSitemap: true,
+    title: 'AI Workforce Inventory Skills | Nexius Academy',
+    description:
+      'Learn how business professionals inventory AI agents, assign owners, map authority, classify risk, track cost, and keep human accountability in the loop.',
+    ogType: 'article',
+    ogImage: 'https://academy.nexiuslabs.com/images/blog/ai-workforce-inventory-business-professionals.png',
+    ogImageAlt: 'A human leader directing a coordinated digital workforce through a governed operating structure',
+    ogImageWidth: 1672,
+    ogImageHeight: 941,
+    schemas: [],
+    articleDate: '2026-10-26',
+  },
+  {
     path: '/admin',
     priority: '0.1',
     changefreq: 'monthly',
