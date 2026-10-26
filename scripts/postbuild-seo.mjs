@@ -1454,7 +1454,7 @@ const routes = [
     ogImage: 'https://academy.nexiuslabs.com/images/blog/ai-workforce-inventory-business-professionals.png',
     ogImageAlt: 'A human leader directing a coordinated digital workforce through a governed operating structure',
     ogImageWidth: 1672,
-    ogImageHeight: 941,
+    ogImageHeight: 940,
     schemas: [],
     articleDate: '2026-10-26',
   },

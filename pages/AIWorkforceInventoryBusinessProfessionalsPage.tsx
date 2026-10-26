@@ -18,7 +18,7 @@ const AIWorkforceInventoryBusinessProfessionalsPage: React.FC = () => {
         ogImage="https://academy.nexiuslabs.com/images/blog/ai-workforce-inventory-business-professionals.png"
         ogImageAlt="A human leader directing a coordinated digital workforce through a governed operating structure"
         ogImageWidth={1672}
-        ogImageHeight={941}
+        ogImageHeight={940}
       />
       <ScrollToTop />
       <div className="academy-article-body min-h-screen bg-[#f4f7f9] py-10">
@@ -40,7 +40,7 @@ const AIWorkforceInventoryBusinessProfessionalsPage: React.FC = () => {
             className="w-full rounded-xl shadow-md border border-gray-100 mb-8"
             loading="eager"
             width={1672}
-            height={941}
+            height={940}
             decoding="async"
           />
 
