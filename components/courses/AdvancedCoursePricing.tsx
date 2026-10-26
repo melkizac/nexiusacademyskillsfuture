@@ -33,7 +33,7 @@ const AdvancedCoursePricing: React.FC<{ onApply: () => void; actionLabel?: strin
             <div className="text-center mb-14">
               <h2 className="text-3xl font-heading font-bold text-primary mb-4">Course fees, including GST</h2>
               <p className="text-gray-600 mb-2">
-                This is a <span className="font-bold text-primary">3-day advanced Agentic AI course</span> with a full course fee of{' '}
+                This is a <span className="font-bold text-primary">3-day Agentic AI course</span> with a full course fee of{' '}
                 <span className="font-bold text-primary">S$1,635.00 incl. GST</span>.
               </p>
               <p className="mx-auto mb-3 flex max-w-3xl items-center justify-center gap-2 text-sm font-semibold text-primary">
@@ -41,7 +41,7 @@ const AdvancedCoursePricing: React.FC<{ onApply: () => void; actionLabel?: strin
                 Participants who meet at least 75% attendance and attempt the assessment will be awarded a Certificate of Completion.
               </p>
               <p className="text-xs text-gray-400 font-mono">
-                Advanced course
+                3-day course · No coding or prior AI course required
               </p>
             </div>
 

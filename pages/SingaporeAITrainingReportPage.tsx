@@ -52,10 +52,10 @@ const courseFitRows = [
     anchor: 'No-code AI automation training ideas for Singapore SMEs',
   },
   {
-    learner: 'Advanced Agentic AI learners',
+    learner: 'Learners who want a deeper 3-day programme',
     need: 'Understand Frontier Firm strategy, governance, and human-agent operating models',
     page: '/courses/advanced-agentic-ai/',
-    anchor: 'Advanced Agentic AI course on Frontier Firm and Agent Boss concepts',
+    anchor: 'Agentic AI-Driven Business Innovation for Productivity (3-day course)',
   },
 ];
 

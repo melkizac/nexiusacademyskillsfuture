@@ -1,8 +1,21 @@
 import AcademyBrand from '../AcademyBrand';
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { Menu, X } from 'lucide-react';
+import { ChevronDown, Menu, X } from 'lucide-react';
 import { openLeadModal } from '../../services/leadModal';
+
+const COURSE_MENU_LINKS = [
+  { to: '/courses/agentic-ai', label: 'Agentic AI Foundations (2-Day)' },
+  {
+    to: '/courses/advanced-agentic-ai',
+    label: 'Business Innovation (3-Day)',
+    ariaLabel: 'Agentic AI-Driven Business Innovation for Productivity',
+  },
+];
+
+const closeParentDetails = (event: { currentTarget: EventTarget & Element }) => {
+  event.currentTarget.closest('details')?.removeAttribute('open');
+};
 
 const Navbar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -62,7 +75,41 @@ const Navbar: React.FC = () => {
 
           <div className="hidden md:flex items-center gap-6">
             {sections.map((section) => (
-              section.isLink ? (
+              section.id === 'courses' ? (
+                <details key={section.id} className="group relative">
+                  <summary
+                    className={`flex cursor-pointer list-none items-center gap-1 text-sm font-semibold transition-colors [&::-webkit-details-marker]:hidden ${
+                      activeSection === section.id ? 'text-secondary' : 'text-gray-600 hover:text-primary'
+                    }`}
+                  >
+                    Courses
+                    <ChevronDown size={16} aria-hidden="true" className="transition-transform group-open:rotate-180" />
+                  </summary>
+                  <div className="absolute left-0 top-full z-50 mt-2 flex w-80 flex-col rounded-lg border border-gray-200 bg-white p-2 shadow-lg">
+                    <button
+                      type="button"
+                      onClick={(event) => {
+                        closeParentDetails(event);
+                        handleSectionClick('courses');
+                      }}
+                      className="block w-full rounded px-3 py-2 text-left text-sm font-semibold text-gray-700 hover:bg-gray-50"
+                    >
+                      Compare courses
+                    </button>
+                    {COURSE_MENU_LINKS.map((course) => (
+                      <Link
+                        key={course.to}
+                        to={course.to}
+                        aria-label={'ariaLabel' in course ? course.ariaLabel : undefined}
+                        onClick={closeParentDetails}
+                        className="block rounded px-3 py-2 text-sm font-semibold text-gray-700 hover:bg-gray-50"
+                      >
+                        {course.label}
+                      </Link>
+                    ))}
+                  </div>
+                </details>
+              ) : section.isLink ? (
                 <Link
                   key={section.id}
                   to={`/${section.id}/`}
@@ -115,7 +162,44 @@ const Navbar: React.FC = () => {
           <div className="md:hidden mt-4 pb-4 border-t border-gray-200">
             <div className="flex flex-col gap-4 pt-4">
               {sections.map((section) => (
-                section.isLink ? (
+                section.id === 'courses' ? (
+                  <details key={section.id} className="group">
+                    <summary
+                      className={`flex cursor-pointer list-none items-center gap-1 py-2 text-left text-base font-semibold [&::-webkit-details-marker]:hidden ${
+                        activeSection === section.id ? 'text-secondary' : 'text-gray-600 hover:text-primary'
+                      }`}
+                    >
+                      Courses
+                      <ChevronDown size={16} aria-hidden="true" className="transition-transform group-open:rotate-180" />
+                    </summary>
+                    <div className="flex flex-col pl-3">
+                      <button
+                        type="button"
+                        onClick={(event) => {
+                          closeParentDetails(event);
+                          handleSectionClick('courses');
+                        }}
+                        className="py-2 text-left text-base font-semibold text-gray-600 hover:text-primary"
+                      >
+                        Compare courses
+                      </button>
+                      {COURSE_MENU_LINKS.map((course) => (
+                        <Link
+                          key={course.to}
+                          to={course.to}
+                          aria-label={'ariaLabel' in course ? course.ariaLabel : undefined}
+                          onClick={(event) => {
+                            closeParentDetails(event);
+                            setIsMobileMenuOpen(false);
+                          }}
+                          className="py-2 text-left text-base font-semibold text-gray-600 hover:text-primary"
+                        >
+                          {course.label}
+                        </Link>
+                      ))}
+                    </div>
+                  </details>
+                ) : section.isLink ? (
                   <Link
                     key={section.id}
                     to={`/${section.id}/`}
